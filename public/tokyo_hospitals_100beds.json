@@ -1,0 +1,5826 @@
+[
+  {
+    "id": "0110098",
+    "name": "社会福祉法人 三井記念病院",
+    "address": "千代田区神田和泉町１番地",
+    "lat": 35.699192,
+    "lng": 139.77597,
+    "beds": 482,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0170050",
+    "name": "公益社団法人 東京都教職員互助会 三楽病院",
+    "address": "千代田区神田駿河台二丁目５番地",
+    "lat": 35.700001,
+    "lng": 139.760956,
+    "beds": 179,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0170068",
+    "name": "公益財団法人 佐々木研究所 附属杏雲堂病院",
+    "address": "千代田区神田駿河台一丁目８番地",
+    "lat": 35.698021,
+    "lng": 139.763245,
+    "beds": 160,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0170126",
+    "name": "日本大学病院",
+    "address": "千代田区神田駿河台一丁目６番地",
+    "lat": 35.697113,
+    "lng": 139.762665,
+    "beds": 320,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0170134",
+    "name": "国家公務員共済組合連合会 九段坂病院",
+    "address": "千代田区九段南一丁目６番１２号",
+    "lat": 35.694054,
+    "lng": 139.752365,
+    "beds": 257,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0270751",
+    "name": "聖路加国際病院",
+    "address": "中央区明石町９番１号",
+    "lat": 35.667965,
+    "lng": 139.776779,
+    "beds": 520,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0314716",
+    "name": "独立行政法人 地域医療機能推進機構東京高輪病院",
+    "address": "港区高輪三丁目１０番１１号",
+    "lat": 35.631798,
+    "lng": 139.731277,
+    "beds": 232,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0314732",
+    "name": "虎の門病院",
+    "address": "港区虎ノ門二丁目２番２号",
+    "lat": 35.669044,
+    "lng": 139.745483,
+    "beds": 817,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0314757",
+    "name": "東京都済生会中央病院",
+    "address": "港区三田一丁目４番１７号",
+    "lat": 35.653156,
+    "lng": 139.742737,
+    "beds": 505,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0370759",
+    "name": "国際医療福祉大学三田病院",
+    "address": "港区三田一丁目４番３号",
+    "lat": 35.653156,
+    "lng": 139.742737,
+    "beds": 291,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0370767",
+    "name": "北里大学北里研究所病院",
+    "address": "港区白金五丁目９番１号",
+    "lat": 35.645351,
+    "lng": 139.725525,
+    "beds": 317,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0370783",
+    "name": "社会福祉法人恩賜財団 母子愛育会 総合母子保健センター愛育病院",
+    "address": "港区芝浦一丁目１６番１０号",
+    "lat": 35.646198,
+    "lng": 139.751663,
+    "beds": 160,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "105-8321",
+    "geo_status": "ok"
+  },
+  {
+    "id": "0411256",
+    "name": "公益財団法人 神経研究所 附属晴和病院",
+    "address": "新宿区弁天町９１番地",
+    "lat": 35.701733,
+    "lng": 139.727234,
+    "beds": 104,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0411264",
+    "name": "社会福祉法人 聖母会 聖母病院",
+    "address": "新宿区中落合二丁目５番１号",
+    "lat": 35.720657,
+    "lng": 139.694489,
+    "beds": 154,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0415018",
+    "name": "東京医科大学病院",
+    "address": "新宿区西新宿六丁目７番１号",
+    "lat": 35.694145,
+    "lng": 139.693008,
+    "beds": 885,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0415059",
+    "name": "独立行政法人 地域医療機能推進機構東京新宿メディカルセンター",
+    "address": "新宿区津久戸町５番地１",
+    "lat": 35.703949,
+    "lng": 139.741669,
+    "beds": 452,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0415067",
+    "name": "慶應義塾大学病院",
+    "address": "新宿区信濃町３５番地",
+    "lat": 35.681423,
+    "lng": 139.718048,
+    "beds": 934,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0470070",
+    "name": "独立行政法人 地域医療機能推進機構東京山手メディカルセンター",
+    "address": "新宿区百人町三丁目２２番１号",
+    "lat": 35.704315,
+    "lng": 139.699631,
+    "beds": 408,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0470948",
+    "name": "医療法人社団 悦伝会 目白病院",
+    "address": "新宿区下落合三丁目２２番２３号",
+    "lat": 35.722202,
+    "lng": 139.698975,
+    "beds": 100,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "161-0033",
+    "geo_status": "ok"
+  },
+  {
+    "id": "0510347",
+    "name": "日本医科大学付属病院",
+    "address": "文京区千駄木一丁目１番５号",
+    "lat": 35.721233,
+    "lng": 139.758453,
+    "beds": 850,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0570911",
+    "name": "医療法人社団 大坪会 小石川東京病院",
+    "address": "文京区大塚四丁目４５番１６号",
+    "lat": 35.722103,
+    "lng": 139.731598,
+    "beds": 111,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0570937",
+    "name": "医療法人社団 大坪会 東都文京病院",
+    "address": "文京区湯島三丁目５番７号",
+    "lat": 35.704235,
+    "lng": 139.767609,
+    "beds": 126,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0570945",
+    "name": "地方独立行政法人東京都立病院機構東京都立駒込病院",
+    "address": "文京区本駒込三丁目１８番２２号",
+    "lat": 35.729939,
+    "lng": 139.757309,
+    "beds": 785,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0670604",
+    "name": "公益財団法人 ライフ・エクステンション研究所 付属 永寿総合病院",
+    "address": "台東区東上野二丁目２３番１６号",
+    "lat": 35.709957,
+    "lng": 139.779678,
+    "beds": 400,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0670653",
+    "name": "医療法人社団 哺育会 浅草病院",
+    "address": "台東区今戸二丁目２６番１５号",
+    "lat": 35.721222,
+    "lng": 139.807251,
+    "beds": 136,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0710764",
+    "name": "社会福祉法人 恩賜財団東京都済生会向島病院",
+    "address": "墨田区八広一丁目５番１０号",
+    "lat": 35.721214,
+    "lng": 139.822144,
+    "beds": 102,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0710772",
+    "name": "社会福祉法人 賛育会 賛育会病院",
+    "address": "墨田区太平三丁目２０番２号",
+    "lat": 35.702652,
+    "lng": 139.813782,
+    "beds": 199,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0714857",
+    "name": "同愛記念病院",
+    "address": "墨田区横網二丁目１番１１号",
+    "lat": 35.700493,
+    "lng": 139.794312,
+    "beds": 330,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0770677",
+    "name": "東京都リハビリテーション病院",
+    "address": "墨田区堤通二丁目１４番１号",
+    "lat": 35.735931,
+    "lng": 139.815933,
+    "beds": 165,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0770784",
+    "name": "医療法人 伯鳳会東京曳舟病院",
+    "address": "墨田区東向島二丁目２７番１号",
+    "lat": 35.7174,
+    "lng": 139.816727,
+    "beds": 200,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0770792",
+    "name": "地方独立行政法人東京都立病院機構東京都立墨東病院",
+    "address": "墨田区江東橋４－２３－１５",
+    "lat": 35.694927,
+    "lng": 139.817917,
+    "beds": 719,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0814905",
+    "name": "社会医療法人社団順江会 江東病院",
+    "address": "江東区大島六丁目８番５号",
+    "lat": 35.690418,
+    "lng": 139.833939,
+    "beds": 286,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0814913",
+    "name": "社会福祉法人 あそか会 あそか病院",
+    "address": "江東区住吉一丁目１８番１号",
+    "lat": 35.689693,
+    "lng": 139.811676,
+    "beds": 250,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0870071",
+    "name": "独立行政法人 地域医療機能推進機構東京城東病院",
+    "address": "江東区亀戸九丁目１３番１号",
+    "lat": 35.69482,
+    "lng": 139.845352,
+    "beds": 117,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0870857",
+    "name": "医療法人社団 藤﨑病院",
+    "address": "江東区南砂一丁目２５番１１号",
+    "lat": 35.676609,
+    "lng": 139.82692,
+    "beds": 145,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0870899",
+    "name": "順天堂大学医学部附属 順天堂東京江東高齢者医療センター",
+    "address": "江東区新砂三丁目３番２０号",
+    "lat": 35.665363,
+    "lng": 139.834274,
+    "beds": 275,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0870923",
+    "name": "公益財団法人 がん研究会 有明病院",
+    "address": "江東区有明三丁目８番３１号",
+    "lat": 35.633831,
+    "lng": 139.794235,
+    "beds": 644,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0870949",
+    "name": "東京都立東部療育センター",
+    "address": "江東区新砂三丁目３番２５号",
+    "lat": 35.664104,
+    "lng": 139.833725,
+    "beds": 120,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0870972",
+    "name": "医療法人 青峰会くじらホスピタル",
+    "address": "江東区枝川三丁目８番２５号",
+    "lat": 35.659279,
+    "lng": 139.812531,
+    "beds": 101,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0870980",
+    "name": "昭和医科大学江東豊洲病院",
+    "address": "江東区豊洲五丁目１番３８号",
+    "lat": 35.650928,
+    "lng": 139.796387,
+    "beds": 400,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0871020",
+    "name": "江東リハビリテーション病院",
+    "address": "江東区北砂二丁目１５番１５号",
+    "lat": 35.684853,
+    "lng": 139.826599,
+    "beds": 300,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "136-0073",
+    "geo_status": "ok"
+  },
+  {
+    "id": "0915413",
+    "name": "昭和医科大学病院",
+    "address": "品川区旗の台一丁目５番８号",
+    "lat": 35.60899,
+    "lng": 139.704071,
+    "beds": 815,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0915801",
+    "name": "公益財団法人 河野臨牀医学研究所 附属第三北品川病院",
+    "address": "品川区北品川三丁目３番７号",
+    "lat": 35.621426,
+    "lng": 139.739136,
+    "beds": 114,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0970095",
+    "name": "ＮＴＴ東日本関東病院",
+    "address": "品川区東五反田五丁目９番２２号",
+    "lat": 35.63055,
+    "lng": 139.726303,
+    "beds": 544,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0970533",
+    "name": "昭和医科大学病院附属東病院",
+    "address": "品川区西中延二丁目１４番１９号",
+    "lat": 35.609695,
+    "lng": 139.705368,
+    "beds": 199,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0970590",
+    "name": "社会医療法人社団東京巨樹の会 東京品川病院",
+    "address": "品川区東大井六丁目３番２２号",
+    "lat": 35.601608,
+    "lng": 139.735382,
+    "beds": 440,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "0970608",
+    "name": "公益財団法人 河野臨牀医学研究所 附属 品川リハビリテーション病院",
+    "address": "品川区北品川五丁目２番１号",
+    "lat": 35.623032,
+    "lng": 139.731384,
+    "beds": 130,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "141-0001",
+    "geo_status": "ok"
+  },
+  {
+    "id": "0970616",
+    "name": "五反田リハビリテーション病院",
+    "address": "品川区西五反田８丁目８番２０号",
+    "lat": 35.621845,
+    "lng": 139.720673,
+    "beds": 240,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1015262",
+    "name": "国家公務員共済組合連合会 東京共済病院",
+    "address": "目黒区中目黒二丁目３番８号",
+    "lat": 35.641899,
+    "lng": 139.703857,
+    "beds": 350,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1015270",
+    "name": "国家公務員共済組合連合会 三宿病院",
+    "address": "目黒区上目黒五丁目３３番１２号",
+    "lat": 35.641602,
+    "lng": 139.685287,
+    "beds": 200,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1070044",
+    "name": "総合病院厚生中央病院",
+    "address": "目黒区三田一丁目１１番７号",
+    "lat": 35.641178,
+    "lng": 139.712906,
+    "beds": 320,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1070713",
+    "name": "東邦大学医療センター大橋病院",
+    "address": "目黒区大橋二丁目２２番３６号",
+    "lat": 35.652473,
+    "lng": 139.684448,
+    "beds": 320,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1113356",
+    "name": "東邦大学医療センター大森病院",
+    "address": "大田区大森西六丁目１１番１号",
+    "lat": 35.569328,
+    "lng": 139.723694,
+    "beds": 880,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1113513",
+    "name": "医療法人 横浜未来ヘルスケアシステム大田池上病院",
+    "address": "大田区池上二丁目７番１０号",
+    "lat": 35.578335,
+    "lng": 139.700974,
+    "beds": 144,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1115427",
+    "name": "東京労災病院",
+    "address": "大田区大森南四丁目１３番２１号",
+    "lat": 35.564991,
+    "lng": 139.747208,
+    "beds": 400,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1115435",
+    "name": "日本赤十字社東京都支部 大森赤十字病院",
+    "address": "大田区中央四丁目３０番１号",
+    "lat": 35.579334,
+    "lng": 139.717361,
+    "beds": 344,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1115443",
+    "name": "独立行政法人 地域医療機能推進機構東京蒲田医療センター",
+    "address": "大田区南蒲田二丁目１９番２号",
+    "lat": 35.554638,
+    "lng": 139.723892,
+    "beds": 230,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1119692",
+    "name": "大田病院",
+    "address": "大田区大森東四丁目４番１４号",
+    "lat": 35.568844,
+    "lng": 139.737808,
+    "beds": 189,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1170950",
+    "name": "医療法人社団 松和会 池上総合病院",
+    "address": "大田区池上六丁目１番１９号",
+    "lat": 35.572533,
+    "lng": 139.704132,
+    "beds": 290,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1171099",
+    "name": "東急 株式会社 東急病院",
+    "address": "大田区北千束三丁目２７番２号",
+    "lat": 35.607712,
+    "lng": 139.686844,
+    "beds": 135,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1213016",
+    "name": "社会福祉法人 児玉新生会 児玉経堂病院",
+    "address": "世田谷区経堂二丁目５番２１号",
+    "lat": 35.652405,
+    "lng": 139.635574,
+    "beds": 120,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1213065",
+    "name": "一般社団法人 至誠会 第二病院",
+    "address": "世田谷区上祖師谷五丁目１９番１",
+    "lat": 35.656204,
+    "lng": 139.591934,
+    "beds": 301,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1213073",
+    "name": "医療法人社団 さくら会 世田谷中央病院",
+    "address": "世田谷区世田谷一丁目３２番１８",
+    "lat": 35.641342,
+    "lng": 139.65062,
+    "beds": 131,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1215292",
+    "name": "公益財団法人 日産厚生会 玉川病院",
+    "address": "世田谷区瀬田四丁目８番１号",
+    "lat": 35.619663,
+    "lng": 139.624924,
+    "beds": 381,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1215334",
+    "name": "公立学校共済組合関東中央病院",
+    "address": "世田谷区上用賀六丁目２５番１号",
+    "lat": 35.636551,
+    "lng": 139.626846,
+    "beds": 383,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1216886",
+    "name": "社会福祉法人 康和会 久我山病院",
+    "address": "世田谷区北烏山二丁目１４番２０",
+    "lat": 35.681889,
+    "lng": 139.598663,
+    "beds": 199,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1270545",
+    "name": "医療法人社団 大坪会 三軒茶屋病院",
+    "address": "世田谷区三軒茶屋一丁目２１番５",
+    "lat": 35.640316,
+    "lng": 139.668686,
+    "beds": 135,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1315233",
+    "name": "日本赤十字社医療センター",
+    "address": "渋谷区広尾四丁目１番２２号",
+    "lat": 35.656685,
+    "lng": 139.718201,
+    "beds": 645,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1370030",
+    "name": "医療法人社団 回心会 回心堂病院",
+    "address": "渋谷区幡ヶ谷二丁目１４番１２号",
+    "lat": 35.677486,
+    "lng": 139.675858,
+    "beds": 137,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "151-0072",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1370071",
+    "name": "ＪＲ東京総合病院",
+    "address": "渋谷区代々木二丁目１番３号",
+    "lat": 35.686707,
+    "lng": 139.699539,
+    "beds": 399,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1370105",
+    "name": "医療法人財団 東京勤労者医療会 代々木病院",
+    "address": "渋谷区千駄ヶ谷一丁目３０番７号",
+    "lat": 35.680748,
+    "lng": 139.709625,
+    "beds": 150,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1370162",
+    "name": "医療法人社団 輝生会 初台リハビリテーション病院",
+    "address": "渋谷区本町三丁目５３番３号",
+    "lat": 35.686298,
+    "lng": 139.684662,
+    "beds": 179,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1370725",
+    "name": "医療法人社団 明生会 セントラル病院松濤",
+    "address": "渋谷区松濤二丁目１１番１２号",
+    "lat": 35.659069,
+    "lng": 139.690125,
+    "beds": 110,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "150-0046",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1410901",
+    "name": "東京医療生活協同組合 新渡戸記念中野総合病院",
+    "address": "中野区中央四丁目５９番１６号",
+    "lat": 35.702694,
+    "lng": 139.66713,
+    "beds": 296,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1418235",
+    "name": "医療法人財団 圭友会 小原病院",
+    "address": "中野区本町三丁目２８番１６号",
+    "lat": 35.696941,
+    "lng": 139.678391,
+    "beds": 120,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1470061",
+    "name": "一般財団法人 自警会 東京警察病院",
+    "address": "中野区中野四丁目２２番１号",
+    "lat": 35.709152,
+    "lng": 139.659378,
+    "beds": 415,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1470079",
+    "name": "医療法人財団 健貢会 総合東京病院",
+    "address": "中野区江古田三丁目１５番２号",
+    "lat": 35.727566,
+    "lng": 139.664261,
+    "beds": 451,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1514967",
+    "name": "医療法人財団 荻窪病院",
+    "address": "杉並区今川三丁目１番２４号",
+    "lat": 35.714733,
+    "lng": 139.607941,
+    "beds": 252,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1514983",
+    "name": "社会福祉法人 浴風会 浴風会病院",
+    "address": "杉並区高井戸西一丁目１２番１号",
+    "lat": 35.67963,
+    "lng": 139.609787,
+    "beds": 150,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1517887",
+    "name": "医療法人社団 三成会 河北前田病院",
+    "address": "杉並区本天沼一丁目２番１号",
+    "lat": 35.712543,
+    "lng": 139.633179,
+    "beds": 111,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1570050",
+    "name": "医療法人社団 静山会 清川病院",
+    "address": "杉並区阿佐谷南二丁目３１番１２号",
+    "lat": 35.704121,
+    "lng": 139.644073,
+    "beds": 111,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "166-0004",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1570480",
+    "name": "医療法人社団 回心会 ロイヤル病院",
+    "address": "杉並区下高井戸四丁目６番２号",
+    "lat": 35.670208,
+    "lng": 139.627914,
+    "beds": 198,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "168-0073",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1570886",
+    "name": "河北リハビリテーション病院",
+    "address": "杉並区堀ノ内一丁目９番２７号",
+    "lat": 35.684204,
+    "lng": 139.650574,
+    "beds": 135,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1570936",
+    "name": "医療法人財団 アドベンチスト会 東京衛生アドベンチスト病院",
+    "address": "杉並区天沼三丁目１７番３号",
+    "lat": 35.707851,
+    "lng": 139.619247,
+    "beds": 186,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1670959",
+    "name": "要町病院",
+    "address": "豊島区要町一丁目１１番１３号",
+    "lat": 35.733593,
+    "lng": 139.699371,
+    "beds": 131,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1670991",
+    "name": "医療法人社団 久福会 関野病院",
+    "address": "豊島区池袋三丁目２８番３号",
+    "lat": 35.735119,
+    "lng": 139.705582,
+    "beds": 112,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1671023",
+    "name": "地方独立行政法人東京都立病院機構東京都立大塚病院",
+    "address": "豊島区南大塚二丁目８番１号",
+    "lat": 35.724743,
+    "lng": 139.73204,
+    "beds": 413,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1711878",
+    "name": "医療法人財団 逸生会 大橋病院",
+    "address": "北区桐ヶ丘一丁目２２番１号",
+    "lat": 35.775299,
+    "lng": 139.705643,
+    "beds": 102,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1711928",
+    "name": "医療法人社団 三恵会 西ヶ原病院",
+    "address": "北区西ヶ原二丁目４６番９号",
+    "lat": 35.74551,
+    "lng": 139.742554,
+    "beds": 110,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "114-0024",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1770106",
+    "name": "東京都立北療育医療センター",
+    "address": "北区十条台一丁目２番３号",
+    "lat": 35.753387,
+    "lng": 139.72818,
+    "beds": 120,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "114-0033",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1770650",
+    "name": "医療法人社団 中央白報会 白報会王子病院",
+    "address": "北区王子二丁目１４番１３号",
+    "lat": 35.756653,
+    "lng": 139.737167,
+    "beds": 112,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1770718",
+    "name": "王子生協病院",
+    "address": "北区豊島三丁目４番１５号",
+    "lat": 35.760498,
+    "lng": 139.74408,
+    "beds": 159,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1770734",
+    "name": "公益社団法人地域医療振興協会 東京北医療センター",
+    "address": "北区赤羽台四丁目１７番５６号",
+    "lat": 35.78389,
+    "lng": 139.71254,
+    "beds": 351,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1770759",
+    "name": "医療法人財団 明理会 明理会中央総合病院",
+    "address": "北区東十条三丁目２番１１号",
+    "lat": 35.765137,
+    "lng": 139.728592,
+    "beds": 312,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1770783",
+    "name": "花と森の東京病院",
+    "address": "北区西ケ原二丁目３番６号",
+    "lat": 35.745586,
+    "lng": 139.742828,
+    "beds": 199,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1770809",
+    "name": "医療法人社団 博栄会 赤羽中央総合病院",
+    "address": "北区志茂一丁目１９番１４号",
+    "lat": 35.777405,
+    "lng": 139.726944,
+    "beds": 154,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1770817",
+    "name": "赤羽リハビリテーション病院",
+    "address": "北区赤羽西６丁目３７番１２号",
+    "lat": 35.770676,
+    "lng": 139.706207,
+    "beds": 240,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "115-0055",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1870872",
+    "name": "医療法人社団 美誠会 荒川病院",
+    "address": "荒川区町屋八丁目２０番３号",
+    "lat": 35.746746,
+    "lng": 139.787354,
+    "beds": 153,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1870880",
+    "name": "社会医療法人社団正志会 荒木記念東京リバーサイド病院",
+    "address": "荒川区南千住八丁目４番４号",
+    "lat": 35.737522,
+    "lng": 139.806534,
+    "beds": 115,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1870922",
+    "name": "令和あらかわ病院",
+    "address": "荒川区東尾久五丁目４５番１号",
+    "lat": 35.747936,
+    "lng": 139.766342,
+    "beds": 240,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1911502",
+    "name": "日本大学医学部附属板橋病院",
+    "address": "板橋区大谷口上町３０番１号",
+    "lat": 35.749275,
+    "lng": 139.691055,
+    "beds": 947,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1911700",
+    "name": "心身障害児総合医療療育センター",
+    "address": "板橋区小茂根一丁目１番１０号",
+    "lat": 35.748085,
+    "lng": 139.683105,
+    "beds": 251,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "173-0037",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1915123",
+    "name": "公益財団法人 愛世会 愛誠病院",
+    "address": "板橋区加賀一丁目３番１号",
+    "lat": 35.753708,
+    "lng": 139.720825,
+    "beds": 123,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1916121",
+    "name": "医療法人社団 明芳会 板橋中央総合病院",
+    "address": "板橋区小豆沢二丁目１２番７号",
+    "lat": 35.775574,
+    "lng": 139.696747,
+    "beds": 579,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1919588",
+    "name": "帝京大学医学部附属病院",
+    "address": "板橋区加賀二丁目１１番１号",
+    "lat": 35.759392,
+    "lng": 139.714478,
+    "beds": 975,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1919984",
+    "name": "板橋区医師会病院",
+    "address": "板橋区高島平三丁目１２番６号",
+    "lat": 35.786076,
+    "lng": 139.657852,
+    "beds": 146,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1970078",
+    "name": "医療法人社団 慈誠会 慈誠会徳丸リハビリテーション病院",
+    "address": "板橋区徳丸二丁目８番２０号",
+    "lat": 35.77166,
+    "lng": 139.66272,
+    "beds": 106,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "175-0083",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1970797",
+    "name": "医療法人社団 慈誠会 慈誠会前野病院",
+    "address": "板橋区前野町六丁目３８番３号",
+    "lat": 35.768913,
+    "lng": 139.688385,
+    "beds": 108,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "174-0063",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1970805",
+    "name": "医療法人社団 慈誠会 慈誠会成増病院",
+    "address": "板橋区成増三丁目３９番５号",
+    "lat": 35.782227,
+    "lng": 139.628021,
+    "beds": 168,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "175-0094",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1970821",
+    "name": "医療法人社団 慈誠会 慈誠会記念病院",
+    "address": "板橋区西台三丁目１１番３号",
+    "lat": 35.77412,
+    "lng": 139.667435,
+    "beds": 113,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "175-0045",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1970847",
+    "name": "医療法人社団 健育会 竹川病院",
+    "address": "板橋区桜川二丁目１９番１号",
+    "lat": 35.758625,
+    "lng": 139.67955,
+    "beds": 161,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "174-0075",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1970862",
+    "name": "東京都健康長寿医療センター",
+    "address": "板橋区栄町３５番２号",
+    "lat": 35.751152,
+    "lng": 139.703186,
+    "beds": 520,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1970888",
+    "name": "医療法人社団 明芳会 イムス板橋リハビリテーション病院",
+    "address": "板橋区小豆沢三丁目１１番１号",
+    "lat": 35.779724,
+    "lng": 139.693085,
+    "beds": 153,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1970920",
+    "name": "医療法人社団 美誠会 板橋宮本病院",
+    "address": "板橋区宮本町５１番１５号",
+    "lat": 35.764839,
+    "lng": 139.701385,
+    "beds": 180,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "174-0054",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1970938",
+    "name": "医療法人財団 明理会 明理会東京大和病院",
+    "address": "板橋区本町３６番３号",
+    "lat": 35.761597,
+    "lng": 139.706314,
+    "beds": 168,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1970946",
+    "name": "医療法人社団 明芳会 高島平中央総合病院",
+    "address": "板橋区高島平一丁目７３番１号",
+    "lat": 35.786674,
+    "lng": 139.668045,
+    "beds": 235,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "1970961",
+    "name": "医療法人財団 朔望会 リハビリテーション エーデルワイス病院",
+    "address": "板橋区四葉二丁目２１番１０号",
+    "lat": 35.78307,
+    "lng": 139.650269,
+    "beds": 107,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "175-0084",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1970987",
+    "name": "医療法人社団 開星会 常盤台病院",
+    "address": "板橋区前野町六丁目５８番１号",
+    "lat": 35.768642,
+    "lng": 139.683487,
+    "beds": 142,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "174-0063",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1970995",
+    "name": "おうちにかえろう病院",
+    "address": "板橋区大原町４４番３号",
+    "lat": 35.768589,
+    "lng": 139.696136,
+    "beds": 120,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "174-0061",
+    "geo_status": "ok"
+  },
+  {
+    "id": "1971001",
+    "name": "地方独立行政法人東京都立病院機構東京都立豊島病院",
+    "address": "板橋区栄町３３番１号",
+    "lat": 35.752899,
+    "lng": 139.700607,
+    "beds": 386,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2011724",
+    "name": "医療法人財団 厚生協会 大泉病院",
+    "address": "練馬区大泉学園町六丁目９番１号",
+    "lat": 35.768589,
+    "lng": 139.581635,
+    "beds": 240,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2015154",
+    "name": "医療法人社団 じうんどう 慈雲堂病院",
+    "address": "練馬区関町南四丁目１４番５３号",
+    "lat": 35.720112,
+    "lng": 139.573105,
+    "beds": 476,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2070886",
+    "name": "医療法人社団 育陽会 練馬さくら病院",
+    "address": "練馬区北町三丁目７番１９号",
+    "lat": 35.768738,
+    "lng": 139.655777,
+    "beds": 178,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2070928",
+    "name": "学校法人 順天堂順天堂大学医学部附属練馬病院",
+    "address": "練馬区高野台三丁目１番１０号",
+    "lat": 35.742813,
+    "lng": 139.614899,
+    "beds": 490,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2070936",
+    "name": "公益財団法人 東京都医療保健協会 練馬総合病院",
+    "address": "練馬区旭丘一丁目２４番１号",
+    "lat": 35.733109,
+    "lng": 139.677277,
+    "beds": 223,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2070969",
+    "name": "医療法人社団 慈誠会 練馬駅リハビリテーション病院",
+    "address": "練馬区練馬一丁目１７番１号",
+    "lat": 35.737988,
+    "lng": 139.652878,
+    "beds": 150,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2070977",
+    "name": "医療法人社団 翠会陽和病院",
+    "address": "練馬区大泉町二丁目１７番１号",
+    "lat": 35.761139,
+    "lng": 139.60347,
+    "beds": 260,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2070985",
+    "name": "医療法人社団 健育会 ねりま健育会病院",
+    "address": "練馬区大泉学園町七丁目３番２８",
+    "lat": 35.769978,
+    "lng": 139.587799,
+    "beds": 100,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2071009",
+    "name": "公益社団法人 地域医療振興協会 練馬光が丘病院",
+    "address": "練馬区光が丘二丁目５番１号",
+    "lat": 35.76152,
+    "lng": 139.633621,
+    "beds": 457,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2071025",
+    "name": "医療法人社団 忠医会 忠医会病院",
+    "address": "練馬区高松３－６－１１",
+    "lat": 35.748333,
+    "lng": 139.625732,
+    "beds": 111,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "179-0075",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2112233",
+    "name": "医療法人財団 厚生協会 東京足立病院",
+    "address": "足立区保木間五丁目２３番２０号",
+    "lat": 35.804691,
+    "lng": 139.804672,
+    "beds": 315,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2112241",
+    "name": "医療法人社団 苑田会 愛里病院",
+    "address": "足立区千住東一丁目２０番１２号",
+    "lat": 35.745289,
+    "lng": 139.805054,
+    "beds": 117,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2112258",
+    "name": "医療法人社団 八葉会 大石記念病院",
+    "address": "足立区西新井本町二丁目２３番１",
+    "lat": 35.774811,
+    "lng": 139.77298,
+    "beds": 215,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2116846",
+    "name": "医療法人社団 大和会 大内病院",
+    "address": "足立区西新井五丁目４１番１号",
+    "lat": 35.784763,
+    "lng": 139.778473,
+    "beds": 228,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2117661",
+    "name": "博慈会記念総合病院",
+    "address": "足立区鹿浜五丁目１１番１号",
+    "lat": 35.784794,
+    "lng": 139.749832,
+    "beds": 288,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2170116",
+    "name": "社会医療法人社団慈生会 等潤病院",
+    "address": "足立区一ツ家四丁目３番４号",
+    "lat": 35.779488,
+    "lng": 139.816544,
+    "beds": 108,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2170207",
+    "name": "医療法人社団 大坪会 東和病院",
+    "address": "足立区東和四丁目７番１０号",
+    "lat": 35.773064,
+    "lng": 139.843475,
+    "beds": 192,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2170355",
+    "name": "社会医療法人社団昭愛会 水野記念病院",
+    "address": "足立区西新井六丁目３２番１０号",
+    "lat": 35.78233,
+    "lng": 139.774628,
+    "beds": 127,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2170942",
+    "name": "長寿リハビリセンター病院",
+    "address": "足立区鹿浜五丁目１３番７号",
+    "lat": 35.78558,
+    "lng": 139.750214,
+    "beds": 182,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "123-0864",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2170991",
+    "name": "医療法人社団 すずき病院",
+    "address": "足立区千住寿町８番２号",
+    "lat": 35.752838,
+    "lng": 139.800171,
+    "beds": 110,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "120-0033",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171106",
+    "name": "医療法人社団 けいせい会 東京北部病院",
+    "address": "足立区江北六丁目２４番６号",
+    "lat": 35.782501,
+    "lng": 139.765335,
+    "beds": 134,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171114",
+    "name": "医療法人社団 苑田会 苑田第一病院",
+    "address": "足立区竹の塚四丁目１番１２号",
+    "lat": 35.793526,
+    "lng": 139.802277,
+    "beds": 221,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171221",
+    "name": "医療法人社団 苑田会 苑田第三病院",
+    "address": "足立区伊興本町二丁目５番１０号",
+    "lat": 35.800327,
+    "lng": 139.784744,
+    "beds": 117,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171254",
+    "name": "医療法人社団 成仁病院",
+    "address": "足立区島根三丁目２番１号",
+    "lat": 35.778641,
+    "lng": 139.796677,
+    "beds": 114,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171288",
+    "name": "医療法人社団 洪泳会 東京洪誠病院",
+    "address": "足立区西新井栄町一丁目１７番２",
+    "lat": 35.774784,
+    "lng": 139.789597,
+    "beds": 156,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171395",
+    "name": "桜会病院",
+    "address": "足立区千住桜木二丁目１３番１号",
+    "lat": 35.755486,
+    "lng": 139.788498,
+    "beds": 113,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171429",
+    "name": "医療法人社団 美誠会 足立北病院",
+    "address": "足立区保木間五丁目３８番１５号",
+    "lat": 35.807594,
+    "lng": 139.80246,
+    "beds": 112,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "121-0064",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171437",
+    "name": "医療法人社団 成和会 西新井病院",
+    "address": "足立区西新井本町一丁目１２番１",
+    "lat": 35.775879,
+    "lng": 139.781555,
+    "beds": 196,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171478",
+    "name": "医療法人社団 大和会 平成扇病院",
+    "address": "足立区扇三丁目２６番５号",
+    "lat": 35.775185,
+    "lng": 139.773773,
+    "beds": 120,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171494",
+    "name": "医療法人社団 苑田会 花はたリハビリテーション病院",
+    "address": "足立区花畑五丁目１２番２９号",
+    "lat": 35.806637,
+    "lng": 139.809647,
+    "beds": 180,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "121-0061",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171502",
+    "name": "医療法人社団 苑田会 足立十全病院",
+    "address": "足立区西保木間三丁目２０番２号",
+    "lat": 35.804874,
+    "lng": 139.798538,
+    "beds": 110,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171569",
+    "name": "医療法人社団 福寿会 福寿会足立東部病院",
+    "address": "足立区梅島二丁目３５番１６号",
+    "lat": 35.778419,
+    "lng": 139.800308,
+    "beds": 128,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171577",
+    "name": "東京女子医科大学附属足立医療センター",
+    "address": "足立区江北四丁目３３番１号",
+    "lat": 35.773937,
+    "lng": 139.765991,
+    "beds": 450,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171585",
+    "name": "医療法人社団 福寿会 福寿会病院",
+    "address": "足立区梅田七丁目１８番１２号",
+    "lat": 35.770187,
+    "lng": 139.798752,
+    "beds": 176,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171593",
+    "name": "医療法人社団 苑田会 竹の塚脳神経リハビリテーション病院",
+    "address": "足立区保木間５－２－３",
+    "lat": 35.800549,
+    "lng": 139.80246,
+    "beds": 180,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "121-0064",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2171601",
+    "name": "医療法人社団 苑田会 苑田会ニューロリハビリテーション病院",
+    "address": "足立区青井一丁目１０番１０号",
+    "lat": 35.775406,
+    "lng": 139.811844,
+    "beds": 180,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2212389",
+    "name": "東京慈恵会医科大学葛飾医療センター",
+    "address": "葛飾区青戸六丁目４１番２号",
+    "lat": 35.752235,
+    "lng": 139.857986,
+    "beds": 371,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2270015",
+    "name": "医療法人社団 一秀会 葛飾橋病院",
+    "address": "葛飾区東金町七丁目３３番１号",
+    "lat": 35.778263,
+    "lng": 139.885132,
+    "beds": 209,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "125-0041",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2270023",
+    "name": "医療法人社団 明芳会 イムスリハビリテーションセンター東京葛飾病院",
+    "address": "葛飾区堀切三丁目２６番５号",
+    "lat": 35.744968,
+    "lng": 139.831711,
+    "beds": 103,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2271062",
+    "name": "社会医療法人社団正志会 平成立石病院",
+    "address": "葛飾区立石五丁目１番９号",
+    "lat": 35.742363,
+    "lng": 139.842041,
+    "beds": 203,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2271112",
+    "name": "医療法人社団 明芳会 イムス東京葛飾総合病院",
+    "address": "葛飾区西新小岩四丁目１８番１号",
+    "lat": 35.718845,
+    "lng": 139.85257,
+    "beds": 377,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2271120",
+    "name": "東京かつしか赤十字母子医療センター",
+    "address": "葛飾区新宿三丁目７番１号",
+    "lat": 35.76144,
+    "lng": 139.862595,
+    "beds": 104,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2271138",
+    "name": "地方独立行政法人東京都立病院機構東京都立東部地域病院",
+    "address": "葛飾区亀有五丁目１４番１号",
+    "lat": 35.767075,
+    "lng": 139.84465,
+    "beds": 314,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2312551",
+    "name": "社会福祉法人 仁生社 江戸川病院",
+    "address": "江戸川区東小岩二丁目２４番１８",
+    "lat": 35.728741,
+    "lng": 139.893112,
+    "beds": 447,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2312577",
+    "name": "医療法人社団 同愛会病院",
+    "address": "江戸川区松島一丁目４２番２１号",
+    "lat": 35.705627,
+    "lng": 139.867783,
+    "beds": 149,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2370930",
+    "name": "医療法人社団 昌医会 西昌医会病院",
+    "address": "江戸川区東葛西六丁目３０番３号",
+    "lat": 35.660625,
+    "lng": 139.87738,
+    "beds": 141,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2370989",
+    "name": "日本私立学校振興・共済事業団 東京臨海病院",
+    "address": "江戸川区臨海町一丁目４番２号",
+    "lat": 35.651829,
+    "lng": 139.852676,
+    "beds": 400,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2371094",
+    "name": "社会医療法人社団森山医会 森山記念病院",
+    "address": "江戸川区北葛西四丁目３番１号",
+    "lat": 35.672161,
+    "lng": 139.861069,
+    "beds": 272,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2371110",
+    "name": "江戸川メディケア病院",
+    "address": "江戸川区東松本二丁目１４番１２",
+    "lat": 35.720634,
+    "lng": 139.88205,
+    "beds": 128,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2470458",
+    "name": "医療法人財団 利定会 大久野病院",
+    "address": "西多摩郡日の出町大久野６４１６",
+    "lat": 35.75301,
+    "lng": 139.23439,
+    "beds": 158,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2470466",
+    "name": "医療法人社団 久遠会 みずほ病院",
+    "address": "西多摩郡瑞穂町大字箱根ケ崎字池",
+    "lat": 35.778725,
+    "lng": 139.341995,
+    "beds": 113,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2714350",
+    "name": "医療法人社団 恵友会 三恵病院",
+    "address": "東村山市青葉町三丁目２９番地１",
+    "lat": 35.76833,
+    "lng": 139.49585,
+    "beds": 307,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2715498",
+    "name": "社会福祉法人 白十字会 東京白十字病院",
+    "address": "東村山市諏訪町二丁目２６番地１",
+    "lat": 35.771687,
+    "lng": 139.463852,
+    "beds": 125,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2715522",
+    "name": "公益財団法人 結核予防会 新山手病院",
+    "address": "東村山市諏訪町三丁目６番地１",
+    "lat": 35.77129,
+    "lng": 139.461182,
+    "beds": 172,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2719169",
+    "name": "医療法人財団 西武中央病院",
+    "address": "東村山市富士見町一丁目１番地４",
+    "lat": 35.743748,
+    "lng": 139.463837,
+    "beds": 114,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2770063",
+    "name": "医療法人社団 新新会 多摩あおば病院",
+    "address": "東村山市青葉町二丁目２７番１号",
+    "lat": 35.762402,
+    "lng": 139.491592,
+    "beds": 206,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "189-0002",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2770089",
+    "name": "医療法人社団 幸悠会 逸見病院",
+    "address": "東村山市萩山町三丁目２６番地１",
+    "lat": 35.744045,
+    "lng": 139.472839,
+    "beds": 149,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2770113",
+    "name": "地方独立行政法人東京都立病院機構東京都立多摩北部医療センター",
+    "address": "東村山市青葉町一丁目７番地１",
+    "lat": 35.760593,
+    "lng": 139.491348,
+    "beds": 337,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2815744",
+    "name": "市立青梅総合医療センター",
+    "address": "青梅市東青梅四丁目１６番地５",
+    "lat": 35.782513,
+    "lng": 139.281174,
+    "beds": 465,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2870087",
+    "name": "武蔵野台病院",
+    "address": "青梅市今井一丁目２５８６番地",
+    "lat": 35.812988,
+    "lng": 139.312958,
+    "beds": 345,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2870111",
+    "name": "医療法人財団 岩尾会 東京青梅病院",
+    "address": "青梅市富岡三丁目１２５４番地",
+    "lat": 35.82766,
+    "lng": 139.293228,
+    "beds": 370,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "198-0002",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2870129",
+    "name": "青梅慶友病院",
+    "address": "青梅市大門一丁目６８１番地",
+    "lat": 35.798855,
+    "lng": 139.287201,
+    "beds": 423,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2870723",
+    "name": "医療法人財団 岩尾会 東京海道病院",
+    "address": "青梅市末広町一丁目４番地５",
+    "lat": 35.778828,
+    "lng": 139.312836,
+    "beds": 374,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "198-0025",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2870756",
+    "name": "医療法人社団 幸悠会 鈴木慈光病院",
+    "address": "青梅市長淵五丁目１０８６番地",
+    "lat": 35.770641,
+    "lng": 139.26384,
+    "beds": 298,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "198-0052",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2870780",
+    "name": "医療法人社団 三秀会 青梅三慶病院",
+    "address": "青梅市大柳町１４１２番地",
+    "lat": 35.784538,
+    "lng": 139.253265,
+    "beds": 124,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2870798",
+    "name": "医療法人財団 良心会 青梅成木台病院",
+    "address": "青梅市成木一丁目４４７番地",
+    "lat": 35.834381,
+    "lng": 139.279678,
+    "beds": 270,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2870814",
+    "name": "医療法人社団 向日葵清心会 青梅今井病院",
+    "address": "青梅市今井一丁目２６０９番地２",
+    "lat": 35.815201,
+    "lng": 139.314911,
+    "beds": 120,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "198-0023",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2870822",
+    "name": "医療法人社団 仁成会 高木病院",
+    "address": "青梅市今寺五丁目１８番地１９",
+    "lat": 35.794018,
+    "lng": 139.305527,
+    "beds": 180,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2870848",
+    "name": "医療法人社団 純正会 青梅東部病院",
+    "address": "青梅市黒沢一丁目６１９番地９",
+    "lat": 35.809715,
+    "lng": 139.268372,
+    "beds": 180,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "198-0005",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2870855",
+    "name": "医療法人社団 長生会 成木長生病院",
+    "address": "青梅市成木四丁目５７６番地",
+    "lat": 35.825439,
+    "lng": 139.257706,
+    "beds": 255,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "198-0001",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2870863",
+    "name": "医療法人社団 長生会 長生病院",
+    "address": "青梅市小曾木一丁目３４３８番地",
+    "lat": 35.823647,
+    "lng": 139.293549,
+    "beds": 120,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2911832",
+    "name": "医療法人社団 東京愛成会 高月病院",
+    "address": "八王子市宮下町１７８番地４",
+    "lat": 35.707317,
+    "lng": 139.315948,
+    "beds": 516,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "192-0005",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2913697",
+    "name": "医療法人財団 青溪会 駒木野病院",
+    "address": "八王子市裏高尾町２７３番地",
+    "lat": 35.640526,
+    "lng": 139.26915,
+    "beds": 430,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2913705",
+    "name": "医療法人社団 玉栄会 東京天使病院",
+    "address": "八王子市上壱分方町５０番地１",
+    "lat": 35.683674,
+    "lng": 139.282349,
+    "beds": 122,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2913721",
+    "name": "一般財団法人 高尾保養院 東京高尾病院",
+    "address": "八王子市高尾町２１８７番地",
+    "lat": 35.632401,
+    "lng": 139.261963,
+    "beds": 331,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2913739",
+    "name": "医療法人財団 緑雲会 多摩病院",
+    "address": "八王子市中野町２０８２番地",
+    "lat": 35.680191,
+    "lng": 139.325134,
+    "beds": 260,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "192-0015",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2917912",
+    "name": "医療法人社団 鵬友会 協和病院",
+    "address": "八王子市川口町２７５８番地",
+    "lat": 35.699337,
+    "lng": 139.280594,
+    "beds": 179,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2919728",
+    "name": "医療法人社団 小松会 聖パウロ病院",
+    "address": "八王子市小比企町１７１０番地",
+    "lat": 35.638126,
+    "lng": 139.316391,
+    "beds": 100,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "193-0934",
+    "geo_status": "ok"
+  },
+  {
+    "id": "2970051",
+    "name": "東京医科大学八王子医療センター",
+    "address": "八王子市館町１１６３番地",
+    "lat": 35.632919,
+    "lng": 139.288834,
+    "beds": 602,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2970127",
+    "name": "医療法人社団 永生会 永生病院",
+    "address": "八王子市椚田町５８３番地１５",
+    "lat": 35.6394,
+    "lng": 139.304703,
+    "beds": 220,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2970135",
+    "name": "八王子保健生活協同組合 城山病院",
+    "address": "八王子市元八王子町三丁目２８７",
+    "lat": 35.652096,
+    "lng": 139.265747,
+    "beds": 159,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2970986",
+    "name": "医療法人社団 清智会 清智会記念病院",
+    "address": "八王子市子安町三丁目２４番１５",
+    "lat": 35.650517,
+    "lng": 139.337845,
+    "beds": 177,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2971018",
+    "name": "医療法人財団 敬寿会 相武病院",
+    "address": "八王子市戸吹町３２３番地１",
+    "lat": 35.711067,
+    "lng": 139.292618,
+    "beds": 326,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2971083",
+    "name": "東海大学医学部付属八王子病院",
+    "address": "八王子市石川町１８３８番地",
+    "lat": 35.673813,
+    "lng": 139.357056,
+    "beds": 500,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2971158",
+    "name": "医療法人社団 永生会 南多摩病院",
+    "address": "八王子市散田町三丁目１０番１号",
+    "lat": 35.655739,
+    "lng": 139.313293,
+    "beds": 170,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2971208",
+    "name": "右田病院",
+    "address": "八王子市暁町一丁目４８番１８号",
+    "lat": 35.66861,
+    "lng": 139.340759,
+    "beds": 118,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2971257",
+    "name": "医療法人社団 東光会 八王子山王病院",
+    "address": "八王子市中野山王二丁目１５番１",
+    "lat": 35.674664,
+    "lng": 139.328552,
+    "beds": 157,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "2971265",
+    "name": "ＡＯＩ八王子病院",
+    "address": "八王子市明神町四丁目２１番４号",
+    "lat": 35.66,
+    "lng": 139.345459,
+    "beds": 198,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "192-0046",
+    "geo_status": "ok"
+  },
+  {
+    "id": "3015716",
+    "name": "国家公務員共済組合連合会 立川病院",
+    "address": "立川市錦町四丁目２番２２号",
+    "lat": 35.69252,
+    "lng": 139.421524,
+    "beds": 406,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3070349",
+    "name": "立川相互病院",
+    "address": "立川市緑町４番地１",
+    "lat": 35.703758,
+    "lng": 139.413483,
+    "beds": 287,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3070356",
+    "name": "医療法人社団 敏和会 西砂川病院",
+    "address": "立川市砂川町八丁目２番３号",
+    "lat": 35.731216,
+    "lng": 139.401749,
+    "beds": 105,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "190-0031",
+    "geo_status": "ok"
+  },
+  {
+    "id": "3214111",
+    "name": "飛鳥病院",
+    "address": "町田市南町田三丁目８番１号",
+    "lat": 35.517174,
+    "lng": 139.467361,
+    "beds": 261,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3214160",
+    "name": "町田市民病院",
+    "address": "町田市旭町二丁目１５番４１号",
+    "lat": 35.556625,
+    "lng": 139.438797,
+    "beds": 440,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3216462",
+    "name": "医療法人社団 芙蓉会 ふよう病院",
+    "address": "町田市南町田三丁目４３番１号",
+    "lat": 35.515839,
+    "lng": 139.471939,
+    "beds": 164,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "194-0005",
+    "geo_status": "ok"
+  },
+  {
+    "id": "3270022",
+    "name": "医療法人財団 明理会 鶴川サナトリウム病院",
+    "address": "町田市真光寺町１９７番地",
+    "lat": 35.605408,
+    "lng": 139.458313,
+    "beds": 124,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3270055",
+    "name": "医療法人社団 鶴川さくら会 鶴川さくら病院",
+    "address": "町田市小野路町１６３２番地",
+    "lat": 35.595909,
+    "lng": 139.446442,
+    "beds": 118,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3270121",
+    "name": "医療法人社団 鶴永会 鶴が丘ガーデンホスピタル",
+    "address": "町田市三輪緑山二丁目２１３３番",
+    "lat": 35.57193,
+    "lng": 139.484222,
+    "beds": 200,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3270147",
+    "name": "医療法人社団 敬寿会 よしの病院",
+    "address": "町田市図師町２２５２番地",
+    "lat": 35.589699,
+    "lng": 139.422531,
+    "beds": 166,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "194-0203",
+    "geo_status": "ok"
+  },
+  {
+    "id": "3270774",
+    "name": "医療法人社団 幸隆会 多摩丘陵リハビリテーション病院",
+    "address": "町田市下小山田町１４９１番地",
+    "lat": 35.606544,
+    "lng": 139.421432,
+    "beds": 117,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3270790",
+    "name": "医療法人社団 創生会 町田病院",
+    "address": "町田市木曽東四丁目２１番４３号",
+    "lat": 35.565228,
+    "lng": 139.425156,
+    "beds": 120,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3270808",
+    "name": "医療法人社団 天紀会 こころのホスピタル町田",
+    "address": "町田市上小山田町２１４０番地",
+    "lat": 35.6007,
+    "lng": 139.391495,
+    "beds": 378,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3270816",
+    "name": "社会医療法人社団正志会 南町田病院",
+    "address": "町田市鶴間四丁目４番１号",
+    "lat": 35.507118,
+    "lng": 139.471161,
+    "beds": 222,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3270857",
+    "name": "ふれあい町田ホスピタル",
+    "address": "町田市小山ヶ丘一丁目３番地８",
+    "lat": 35.597218,
+    "lng": 139.383545,
+    "beds": 199,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3270865",
+    "name": "医療法人社団 三医会 鶴川記念病院",
+    "address": "町田市三輪町１０５９番地１",
+    "lat": 35.571697,
+    "lng": 139.497192,
+    "beds": 120,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3270873",
+    "name": "医療法人社団 三医会 鶴川リハビリテーション病院",
+    "address": "町田市三輪町１１２９番地",
+    "lat": 35.569866,
+    "lng": 139.494843,
+    "beds": 120,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3270923",
+    "name": "医療法人社団 幸隆会 多摩丘陵病院",
+    "address": "町田市下小山田町１４０１",
+    "lat": 35.597073,
+    "lng": 139.414536,
+    "beds": 199,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3315728",
+    "name": "武蔵野赤十字病院",
+    "address": "武蔵野市境南町一丁目２６番１号",
+    "lat": 35.697903,
+    "lng": 139.546799,
+    "beds": 566,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3370145",
+    "name": "武蔵野陽和会病院",
+    "address": "武蔵野市緑町二丁目１番３３号",
+    "lat": 35.716446,
+    "lng": 139.565826,
+    "beds": 103,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3370152",
+    "name": "医療法人 啓仁会吉祥寺南病院",
+    "address": "武蔵野市吉祥寺南町三丁目１４番４号",
+    "lat": 35.699001,
+    "lng": 139.58783,
+    "beds": 125,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "180-0003",
+    "geo_status": "ok"
+  },
+  {
+    "id": "3516432",
+    "name": "医療法人社団 清愛会 七生病院",
+    "address": "日野市西平山一丁目２４番地１",
+    "lat": 35.648354,
+    "lng": 139.373489,
+    "beds": 268,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3570074",
+    "name": "日野市立病院",
+    "address": "日野市多摩平四丁目３番地１",
+    "lat": 35.66647,
+    "lng": 139.378754,
+    "beds": 300,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3570090",
+    "name": "グレイス病院",
+    "address": "日野市宮２４８番地",
+    "lat": 35.670521,
+    "lng": 139.40596,
+    "beds": 120,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3613791",
+    "name": "公益財団法人 井之頭病院",
+    "address": "三鷹市上連雀四丁目１４番１号",
+    "lat": 35.697617,
+    "lng": 139.557495,
+    "beds": 640,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3619368",
+    "name": "医療法人社団 永寿会 三鷹中央病院",
+    "address": "三鷹市上連雀五丁目２３番１０号",
+    "lat": 35.694557,
+    "lng": 139.552322,
+    "beds": 122,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3814068",
+    "name": "医療法人社団 根岸病院",
+    "address": "府中市武蔵台二丁目１２番地２",
+    "lat": 35.693619,
+    "lng": 139.460602,
+    "beds": 426,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "183-0042",
+    "geo_status": "ok"
+  },
+  {
+    "id": "3814076",
+    "name": "府中恵仁会病院",
+    "address": "府中市住吉町五丁目２１番地１",
+    "lat": 35.657253,
+    "lng": 139.454529,
+    "beds": 217,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3818499",
+    "name": "東京都立府中療育センター",
+    "address": "府中市武蔵台二丁目９番地２",
+    "lat": 35.692436,
+    "lng": 139.463531,
+    "beds": 260,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3870060",
+    "name": "医療法人財団 赤光会 斎藤病院",
+    "address": "府中市浅間町４丁目１番地",
+    "lat": 35.684006,
+    "lng": 139.499725,
+    "beds": 186,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3870086",
+    "name": "公益財団法人 原記念財団 附属 原記念病院",
+    "address": "府中市朝日町三丁目１６番地１",
+    "lat": 35.666393,
+    "lng": 139.520477,
+    "beds": 303,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3870144",
+    "name": "地方独立行政法人東京都立病院機構東京都立神経病院",
+    "address": "府中市武蔵台二丁目６番地の１",
+    "lat": 35.689968,
+    "lng": 139.461334,
+    "beds": 304,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3870151",
+    "name": "地方独立行政法人東京都立病院機構東京都立小児総合医療センター",
+    "address": "府中市武蔵台二丁目８番地の２９",
+    "lat": 35.692005,
+    "lng": 139.461517,
+    "beds": 347,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3870169",
+    "name": "地方独立行政法人東京都立病院機構東京都立多摩総合医療センター",
+    "address": "府中市武蔵台二丁目８番地の２９",
+    "lat": 35.692005,
+    "lng": 139.461517,
+    "beds": 705,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3970019",
+    "name": "医療法人社団 時正会 佐々総合病院",
+    "address": "西東京市田無町四丁目２４番１５",
+    "lat": 35.729767,
+    "lng": 139.538803,
+    "beds": 183,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3970860",
+    "name": "医療法人社団 薫風会 山田病院",
+    "address": "西東京市南町三丁目４番１０号",
+    "lat": 35.726833,
+    "lng": 139.541443,
+    "beds": 306,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "3970969",
+    "name": "医療法人社団 東光会 西東京中央総合病院",
+    "address": "西東京市芝久保町二丁目４番１９",
+    "lat": 35.726776,
+    "lng": 139.531219,
+    "beds": 270,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4015624",
+    "name": "社会福祉法人 恩賜財団東京都同胞援護会 昭島病院",
+    "address": "昭島市中神町１２６０番地",
+    "lat": 35.708145,
+    "lng": 139.381348,
+    "beds": 199,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4018180",
+    "name": "医療法人社団 竹口病院",
+    "address": "昭島市玉川町四丁目６番３２号",
+    "lat": 35.705299,
+    "lng": 139.379852,
+    "beds": 112,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "196-0034",
+    "geo_status": "ok"
+  },
+  {
+    "id": "4070843",
+    "name": "あきしま相互病院",
+    "address": "昭島市もくせいの杜二丁目２番１",
+    "lat": 35.718529,
+    "lng": 139.385284,
+    "beds": 199,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4070850",
+    "name": "医療法人 徳洲会東京西徳洲会病院",
+    "address": "昭島市松原町三丁目１番１号",
+    "lat": 35.716751,
+    "lng": 139.350143,
+    "beds": 568,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4070876",
+    "name": "医療法人社団 野村会 昭和の杜病院",
+    "address": "昭島市宮沢町５２２番地２",
+    "lat": 35.715141,
+    "lng": 139.376083,
+    "beds": 180,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "196-0024",
+    "geo_status": "ok"
+  },
+  {
+    "id": "4113999",
+    "name": "医療法人財団 美生会 小金井病院",
+    "address": "小金井市前原町四丁目４番４７号",
+    "lat": 35.68602,
+    "lng": 139.504471,
+    "beds": 300,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4114005",
+    "name": "社会福祉法人 聖ヨハネ会 桜町病院",
+    "address": "小金井市桜町一丁目２番２０号",
+    "lat": 35.710068,
+    "lng": 139.511002,
+    "beds": 155,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4170049",
+    "name": "小金井リハビリテーション病院",
+    "address": "小金井市前原町一丁目３番２号",
+    "lat": 35.688671,
+    "lng": 139.512711,
+    "beds": 220,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4214052",
+    "name": "医療法人社団 欣助会 吉祥寺病院",
+    "address": "調布市深大寺北町四丁目１７番地",
+    "lat": 35.679989,
+    "lng": 139.551575,
+    "beds": 345,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "182-0011",
+    "geo_status": "ok"
+  },
+  {
+    "id": "4216701",
+    "name": "医療法人社団 青山会 青木病院",
+    "address": "調布市上石原三丁目３３番地１７",
+    "lat": 35.650707,
+    "lng": 139.525101,
+    "beds": 270,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4270013",
+    "name": "医療法人社団 大坪会 北多摩病院",
+    "address": "調布市調布ヶ丘四丁目１番地１",
+    "lat": 35.659626,
+    "lng": 139.543655,
+    "beds": 169,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4270054",
+    "name": "医療法人社団 桐光会 調布病院",
+    "address": "調布市下石原三丁目４５番地１",
+    "lat": 35.650974,
+    "lng": 139.53273,
+    "beds": 118,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4270096",
+    "name": "医療法人社団 大和会 多摩川病院",
+    "address": "調布市国領町五丁目３１番地１",
+    "lat": 35.648739,
+    "lng": 139.554199,
+    "beds": 167,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4270104",
+    "name": "特定医療法人社団研精会 東京さつきホスピタル",
+    "address": "調布市東つつじケ丘二丁目２７番",
+    "lat": 35.656582,
+    "lng": 139.577377,
+    "beds": 156,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4314209",
+    "name": "緑成会病院",
+    "address": "小平市小川西町二丁目３５番１号",
+    "lat": 35.737125,
+    "lng": 139.460754,
+    "beds": 146,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4314407",
+    "name": "公立昭和病院",
+    "address": "小平市花小金井八丁目１番１号",
+    "lat": 35.731667,
+    "lng": 139.502655,
+    "beds": 479,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4370045",
+    "name": "医療法人社団 武蔵野会 小平中央リハビリテーション病院",
+    "address": "小平市鈴木町一丁目１４６番地",
+    "lat": 35.726021,
+    "lng": 139.495071,
+    "beds": 200,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "187-0011",
+    "geo_status": "ok"
+  },
+  {
+    "id": "4370052",
+    "name": "晴生会東京病院",
+    "address": "小平市小川東町二丁目１１番１号",
+    "lat": 35.742455,
+    "lng": 139.467453,
+    "beds": 280,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4370060",
+    "name": "緑成会整育園",
+    "address": "小平市小川町一丁目７４１番地３",
+    "lat": 35.724098,
+    "lng": 139.449448,
+    "beds": 100,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "187-0032",
+    "geo_status": "ok"
+  },
+  {
+    "id": "4370078",
+    "name": "医療法人社団晃悠会むさしの救急病院",
+    "address": "小平市小川東町１丁目２４番１号",
+    "lat": 35.737938,
+    "lng": 139.465469,
+    "beds": 132,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4414561",
+    "name": "医療法人社団 大聖病院",
+    "address": "福生市福生８７１番地",
+    "lat": 35.742599,
+    "lng": 139.330505,
+    "beds": 116,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "197-0011",
+    "geo_status": "ok"
+  },
+  {
+    "id": "4470035",
+    "name": "医療法人社団 悦伝会 目白第二病院",
+    "address": "福生市福生１９８０番地",
+    "lat": 35.74963,
+    "lng": 139.337372,
+    "beds": 160,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "197-0011",
+    "geo_status": "ok"
+  },
+  {
+    "id": "4470050",
+    "name": "公立福生病院",
+    "address": "福生市加美平一丁目６番地１",
+    "lat": 35.747074,
+    "lng": 139.326569,
+    "beds": 316,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4514188",
+    "name": "東京慈恵会医科大学西部医療センター",
+    "address": "狛江市和泉本町四丁目１１番１号",
+    "lat": 35.644066,
+    "lng": 139.566803,
+    "beds": 494,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4615514",
+    "name": "社会医療法人財団大和会 東大和病院",
+    "address": "東大和市南街一丁目１３番１２号",
+    "lat": 35.74131,
+    "lng": 139.431793,
+    "beds": 284,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4670022",
+    "name": "東京都立東大和療育センター",
+    "address": "東大和市桜が丘三丁目４４番地１",
+    "lat": 35.734173,
+    "lng": 139.418442,
+    "beds": 128,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "207-0022",
+    "geo_status": "ok"
+  },
+  {
+    "id": "4715538",
+    "name": "公益財団法人 結核予防会 複十字病院",
+    "address": "清瀬市松山三丁目１番２４号",
+    "lat": 35.772427,
+    "lng": 139.511993,
+    "beds": 274,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4715918",
+    "name": "医療法人財団 保養会 竹丘病院",
+    "address": "清瀬市竹丘二丁目３番７号",
+    "lat": 35.766277,
+    "lng": 139.507828,
+    "beds": 164,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "204-0023",
+    "geo_status": "ok"
+  },
+  {
+    "id": "4770103",
+    "name": "医療法人社団 雄心会 山崎病院",
+    "address": "清瀬市竹丘三丁目４番２５号",
+    "lat": 35.768547,
+    "lng": 139.501846,
+    "beds": 135,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "204-0023",
+    "geo_status": "ok"
+  },
+  {
+    "id": "4770111",
+    "name": "医療法人社団 弘善会 清瀬富士見病院",
+    "address": "清瀬市中清戸五丁目２７番地",
+    "lat": 35.777122,
+    "lng": 139.536774,
+    "beds": 120,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4819934",
+    "name": "医療法人社団苑田会滝山病院",
+    "address": "東久留米市滝山四丁目１番１８号",
+    "lat": 35.745285,
+    "lng": 139.504227,
+    "beds": 222,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4870085",
+    "name": "医療法人社団 良江会 久留米ヶ丘病院",
+    "address": "東久留米市小山五丁目７番３号",
+    "lat": 35.765804,
+    "lng": 139.517853,
+    "beds": 183,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "4916763",
+    "name": "社会福祉法人 鶴風会 東京小児療育病院",
+    "address": "武蔵村山市学園四丁目１０番地１",
+    "lat": 35.744087,
+    "lng": 139.398605,
+    "beds": 176,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "208-0011",
+    "geo_status": "ok"
+  },
+  {
+    "id": "4970042",
+    "name": "社会医療法人財団大和会 武蔵村山病院",
+    "address": "武蔵村山市榎一丁目１番地５",
+    "lat": 35.746552,
+    "lng": 139.385162,
+    "beds": 144,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5015672",
+    "name": "社会福祉法人 桜ヶ丘社会事業協会 桜ヶ丘記念病院",
+    "address": "多摩市連光寺一丁目１番１号",
+    "lat": 35.647388,
+    "lng": 139.45787,
+    "beds": 405,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5016746",
+    "name": "社会福祉法人 日本心身障害児協会 島田療育センター",
+    "address": "多摩市中沢一丁目３１番１号",
+    "lat": 35.620956,
+    "lng": 139.410233,
+    "beds": 243,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5070016",
+    "name": "日本医科大学多摩永山病院",
+    "address": "多摩市永山一丁目７番地１",
+    "lat": 35.631214,
+    "lng": 139.446304,
+    "beds": 405,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5070024",
+    "name": "医療法人社団 聖美会 多摩中央病院",
+    "address": "多摩市連光寺二丁目６２番２号",
+    "lat": 35.639576,
+    "lng": 139.455963,
+    "beds": 320,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5070099",
+    "name": "天本病院",
+    "address": "多摩市中沢二丁目５番１号",
+    "lat": 35.621639,
+    "lng": 139.413788,
+    "beds": 131,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5070107",
+    "name": "地方独立行政法人東京都立病院機構東京都立多摩南部地域病院",
+    "address": "多摩市中沢二丁目１番地２",
+    "lat": 35.623051,
+    "lng": 139.414154,
+    "beds": 287,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5114483",
+    "name": "稲城市立病院",
+    "address": "稲城市大丸１１７１番地",
+    "lat": 35.641563,
+    "lng": 139.481995,
+    "beds": 290,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5170030",
+    "name": "医療法人社団 慶成会 よみうりランド慶友病院",
+    "address": "稲城市矢野口３２９４番地",
+    "lat": 35.625561,
+    "lng": 139.515045,
+    "beds": 240,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5170048",
+    "name": "医療法人社団 慶晃会 南山リハビリテーション病院",
+    "address": "稲城市矢野口３１２４番地１２南山１６街区４号",
+    "lat": 35.633862,
+    "lng": 139.51416,
+    "beds": 104,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "206-0812",
+    "geo_status": "ok"
+  },
+  {
+    "id": "5219860",
+    "name": "公立阿伎留医療センター",
+    "address": "あきる野市引田７８番地１",
+    "lat": 35.732136,
+    "lng": 139.271896,
+    "beds": 305,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5270087",
+    "name": "医療法人財団 暁あきる台病院",
+    "address": "あきる野市秋川六丁目５番地１",
+    "lat": 35.729351,
+    "lng": 139.292358,
+    "beds": 100,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "197-0804",
+    "geo_status": "ok"
+  },
+  {
+    "id": "5270095",
+    "name": "秋川病院",
+    "address": "あきる野市平沢４７２",
+    "lat": 35.73494,
+    "lng": 139.305466,
+    "beds": 113,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "197-0812",
+    "geo_status": "ok"
+  },
+  {
+    "id": "5370028",
+    "name": "医療法人社団 三秀会 羽村三慶病院",
+    "address": "羽村市羽字武蔵野４２０７番地",
+    "lat": 35.758251,
+    "lng": 139.298889,
+    "beds": 126,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "205-0012",
+    "geo_status": "ok"
+  },
+  {
+    "id": "5470018",
+    "name": "医療法人社団 花みずき会 保谷厚生病院",
+    "address": "西東京市栄町一丁目１７番１８号",
+    "lat": 35.748749,
+    "lng": 139.557587,
+    "beds": 174,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5470026",
+    "name": "医療法人 徳洲会武蔵野徳洲会病院",
+    "address": "西東京市向台町三丁目５番４８号",
+    "lat": 35.717411,
+    "lng": 139.532928,
+    "beds": 253,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5570049",
+    "name": "医療法人社団 武蔵野会 世田谷神経内科病院",
+    "address": "世田谷区等々力六丁目３７番１２号",
+    "lat": 35.61372,
+    "lng": 139.659378,
+    "beds": 165,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "158-0082",
+    "geo_status": "ok"
+  },
+  {
+    "id": "5570072",
+    "name": "世田谷記念病院",
+    "address": "世田谷区野毛二丁目３０番１０号",
+    "lat": 35.604195,
+    "lng": 139.63765,
+    "beds": 146,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5670005",
+    "name": "東京蒲田病院",
+    "address": "大田区西蒲田七丁目１０番１号",
+    "lat": 35.5644,
+    "lng": 139.711807,
+    "beds": 124,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5670013",
+    "name": "社会医療法人財団仁医会 牧田リハビリテーション病院",
+    "address": "大田区西蒲田四丁目２２番１号",
+    "lat": 35.569164,
+    "lng": 139.715103,
+    "beds": 180,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "144-0051",
+    "geo_status": "ok"
+  },
+  {
+    "id": "5670021",
+    "name": "社会医療法人財団仁医会 牧田総合病院",
+    "address": "大田区西蒲田八丁目２０番１号",
+    "lat": 35.560123,
+    "lng": 139.712997,
+    "beds": 290,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5670039",
+    "name": "地方独立行政法人東京都立病院機構東京都立荏原病院",
+    "address": "大田区東雪谷四丁目５番１０号",
+    "lat": 35.593746,
+    "lng": 139.692047,
+    "beds": 411,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5670047",
+    "name": "医療法人社団 巨樹の会 蒲田リハビリテーション病院",
+    "address": "大田区大森西四丁目１４番５号",
+    "lat": 35.572659,
+    "lng": 139.720901,
+    "beds": 180,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "143-0015",
+    "geo_status": "ok"
+  },
+  {
+    "id": "5670062",
+    "name": "医療法人社団 七仁会 田園調布中央病院",
+    "address": "大田区田園調布一丁目５４番９号",
+    "lat": 35.586796,
+    "lng": 139.669312,
+    "beds": 100,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5770011",
+    "name": "地方独立行政法人東京都立病院機構東京都立大久保病院",
+    "address": "新宿区歌舞伎町二丁目４４番１号",
+    "lat": 35.696693,
+    "lng": 139.701263,
+    "beds": 304,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5970009",
+    "name": "杏林大学医学部付属杉並病院",
+    "address": "杉並区和田二丁目２５番１号",
+    "lat": 35.689209,
+    "lng": 139.656509,
+    "beds": 340,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "5970017",
+    "name": "社会医療法人河北医療財団 河北総合病院",
+    "address": "杉並区阿佐谷北一丁目６番１号",
+    "lat": 35.705574,
+    "lng": 139.638626,
+    "beds": 353,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "6070007",
+    "name": "地方独立行政法人東京都立病院機構東京都立広尾病院",
+    "address": "渋谷区恵比寿二丁目３４番１０号",
+    "lat": 35.647503,
+    "lng": 139.722046,
+    "beds": 378,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "6070015",
+    "name": "医療法人社団 巨樹の会 原宿リハビリテーション病院",
+    "address": "渋谷区神宮前六丁目２６番１号",
+    "lat": 35.667492,
+    "lng": 139.702362,
+    "beds": 332,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "postal": "150-0001",
+    "geo_status": "ok"
+  },
+  {
+    "id": "8615072",
+    "name": "国立健康危機管理研究機構 国立国際医療センター",
+    "address": "新宿区戸山一丁目２１番１号",
+    "lat": 35.703987,
+    "lng": 139.716217,
+    "beds": 689,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "8615288",
+    "name": "独立行政法人 国立病院機構 東京医療センター",
+    "address": "目黒区東が丘二丁目５番１号",
+    "lat": 35.625114,
+    "lng": 139.666763,
+    "beds": 640,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "8615312",
+    "name": "国立研究開発法人国立成育医療研究センター",
+    "address": "世田谷区大蔵二丁目１０番１号",
+    "lat": 35.63287,
+    "lng": 139.613312,
+    "beds": 490,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "8616104",
+    "name": "国立研究開発法人国立がん研究センター中央病院",
+    "address": "中央区築地五丁目１番１号",
+    "lat": 35.665504,
+    "lng": 139.766815,
+    "beds": 578,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "8670077",
+    "name": "独立行政法人 国立病院機構 災害医療センター",
+    "address": "立川市緑町３２５６番地",
+    "lat": 35.706291,
+    "lng": 139.407944,
+    "beds": 455,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": true,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "8715542",
+    "name": "国立研究開発法人国立精神・神経医療研究センター病院",
+    "address": "小平市小川東町四丁目１番１号",
+    "lat": 35.739365,
+    "lng": 139.474945,
+    "beds": 295,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "8715559",
+    "name": "独立行政法人 国立病院機構 村山医療センター",
+    "address": "武蔵村山市学園二丁目３７番地１",
+    "lat": 35.746006,
+    "lng": 139.397903,
+    "beds": 303,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "8715567",
+    "name": "独立行政法人 国立病院機構 東京病院",
+    "address": "清瀬市竹丘三丁目１番１号",
+    "lat": 35.77,
+    "lng": 139.505692,
+    "beds": 422,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "8716110",
+    "name": "国立療養所多磨全生園",
+    "address": "東村山市青葉町四丁目１番地１",
+    "lat": 35.765694,
+    "lng": 139.493698,
+    "beds": 404,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": false,
+      "remote_care": false,
+      "data_submission": false
+    },
+    "postal": "189-0002",
+    "geo_status": "ok"
+  },
+  {
+    "id": "8810236",
+    "name": "東京大学医科学研究所附属病院",
+    "address": "港区白金台四丁目６番１号",
+    "lat": 35.6404,
+    "lng": 139.723465,
+    "beds": 122,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "8814774",
+    "name": "東京科学大学病院",
+    "address": "文京区湯島一丁目５番４５号",
+    "lat": 35.701828,
+    "lng": 139.765274,
+    "beds": 772,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "9516824",
+    "name": "東京逓信病院",
+    "address": "千代田区富士見二丁目１４番２３",
+    "lat": 35.697601,
+    "lng": 139.742691,
+    "beds": 421,
+    "investments": {
+      "online_medical": true,
+      "medical_dx": true,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": false,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  },
+  {
+    "id": "9570565",
+    "name": "自衛隊中央病院",
+    "address": "世田谷区池尻一丁目２番２４号",
+    "lat": 35.644024,
+    "lng": 139.682709,
+    "beds": 338,
+    "investments": {
+      "online_medical": false,
+      "medical_dx": false,
+      "electronic_record": false,
+      "robot_surgery": false,
+      "outpatient_chemo": true,
+      "remote_care": true,
+      "data_submission": true
+    },
+    "geo_status": "ok"
+  }
+]
