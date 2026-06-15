@@ -1,6 +1,6 @@
 # データ監査レポート: tokyo_hospitals_100beds.json
 
-- 実行日時: 2026-06-15T12:45:26.260Z
+- 実行日時: 2026-06-15T17:42:03.409Z
 - 対象ファイル: `public/tokyo_hospitals_100beds.json`
 - 監査スクリプト: `scripts/audit.mjs`
 
