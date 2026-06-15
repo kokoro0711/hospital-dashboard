@@ -4,9 +4,28 @@
       <div id="map" class="absolute inset-0 z-0"></div>
     </ClientOnly>
 
+    <!-- パネルを開くボタン（パネル非表示時のみ） -->
+    <button
+      v-show="!panelOpen"
+      @click="panelOpen = true"
+      class="absolute top-4 left-4 z-[1001] flex items-center gap-2 px-3 py-2 bg-white/95 backdrop-blur-md rounded-lg shadow-lg border border-gray-100 text-sm font-medium text-gray-700 hover:bg-white"
+    >
+      <span class="text-base leading-none">☰</span> メニュー
+    </button>
+
     <!-- 左上: コントロールパネル -->
-    <div class="absolute top-4 left-4 z-[1000] w-[21rem] max-w-[calc(100vw-2rem)] max-h-[calc(100vh-7rem)] overflow-y-auto bg-white/95 backdrop-blur-md rounded-xl shadow-lg border border-gray-100">
+    <transition name="slide-left">
+      <div v-show="panelOpen" class="absolute top-4 left-4 z-[1000] w-[21rem] max-w-[calc(100vw-2rem)] max-h-[calc(100vh-7rem)] overflow-y-auto bg-white/95 backdrop-blur-md rounded-xl shadow-lg border border-gray-100">
       <div class="p-5">
+        <div class="flex items-start justify-between gap-2 -mt-1 -mr-1 mb-1">
+          <span></span>
+          <button
+            @click="panelOpen = false"
+            class="text-gray-400 hover:text-gray-700 text-sm px-2 py-1 rounded hover:bg-gray-100"
+            aria-label="パネルを隠す"
+            title="地図を広く見る"
+          >« 隠す</button>
+        </div>
         <h1 class="text-xl font-bold text-gray-800 tracking-tight">
           {{ meta?.title || '東京都 病院IT投資マップ' }}
         </h1>
@@ -40,6 +59,21 @@
           >
             <option v-for="(label, key) in indicators" :key="key" :value="key">{{ label }}</option>
           </select>
+        </div>
+
+        <!-- 集積範囲リング表示トグル -->
+        <div class="mt-3">
+          <label class="flex items-center justify-between cursor-pointer select-none">
+            <span class="text-sm text-gray-700">該当施設の集積範囲をリング表示</span>
+            <span class="relative inline-block w-10 h-5">
+              <input type="checkbox" v-model="showRings" class="sr-only peer" />
+              <span class="absolute inset-0 rounded-full bg-gray-300 peer-checked:bg-orange-500 transition-colors"></span>
+              <span class="absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white transition-transform peer-checked:translate-x-5"></span>
+            </span>
+          </label>
+          <p v-if="showRings" class="text-[11px] text-gray-500 mt-1">
+            「{{ indicators[selectedIndicator] }}」が該当の施設が{{ ringMinCount }}件以上集まる範囲を{{ ringCount }}箇所表示中
+          </p>
         </div>
 
         <!-- 統計サマリ -->
@@ -103,7 +137,8 @@
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </transition>
 
     <!-- 右: 施設詳細サイドパネル -->
     <transition name="slide">
@@ -215,6 +250,10 @@ const selectedIndicator = ref<string>('medical_dx')
 const searchQuery = ref('')
 const selected = ref<Hospital | null>(null)
 const showUnlocated = ref(false)
+const panelOpen = ref(true)
+const showRings = ref(false)
+const ringCount = ref(0)
+const ringMinCount = 4
 
 // --- 派生値 ---
 const stateOf = (h: Hospital): State => {
@@ -265,6 +304,54 @@ function legendSwatch(state: State) {
 let L: any = null
 let map: any = null
 let clusterGroup: any = null
+let ringGroup: any = null
+
+// 該当施設が地理的に集積する範囲を貪欲法でクラスタ化し、リング（円）で表示する
+function rebuildRings() {
+  if (!ringGroup || !L) return
+  ringGroup.clearLayers()
+  if (!showRings.value) { ringCount.value = 0; return }
+
+  const pts = filtered.value.filter((h) => stateOf(h) === 'yes')
+  const R = 2500 // クラスタ判定半径(m)
+  const used = new Array(pts.length).fill(false)
+  const color = COLORS.yes
+  let rings = 0
+
+  for (let i = 0; i < pts.length; i++) {
+    if (used[i]) continue
+    const anchor = L.latLng(pts[i].lat, pts[i].lng)
+    const members: number[] = []
+    for (let j = 0; j < pts.length; j++) {
+      if (used[j]) continue
+      if (anchor.distanceTo(L.latLng(pts[j].lat, pts[j].lng)) <= R) members.push(j)
+    }
+    if (members.length >= ringMinCount) {
+      members.forEach((j) => (used[j] = true))
+      let la = 0, ln = 0
+      members.forEach((j) => { la += pts[j].lat; ln += pts[j].lng })
+      const center = L.latLng(la / members.length, ln / members.length)
+      let maxd = 0
+      members.forEach((j) => { maxd = Math.max(maxd, center.distanceTo(L.latLng(pts[j].lat, pts[j].lng))) })
+      const radius = Math.max(maxd + 350, 800)
+      L.circle(center, {
+        radius, color, weight: 2, dashArray: '6 5',
+        fillColor: color, fillOpacity: 0.08, interactive: false,
+      }).addTo(ringGroup)
+      const label = L.divIcon({
+        className: 'ring-label',
+        html: `<div style="display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:${color};color:#fff;font-weight:700;font-size:13px;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.4)">${members.length}</div>`,
+        iconSize: [30, 30],
+        iconAnchor: [15, 15],
+      })
+      L.marker(center, { icon: label, interactive: false, zIndexOffset: -1000 }).addTo(ringGroup)
+      rings++
+    } else {
+      used[i] = true
+    }
+  }
+  ringCount.value = rings
+}
 
 function rebuildMarkers() {
   if (!clusterGroup || !L) return
@@ -283,7 +370,8 @@ function rebuildMarkers() {
   }
 }
 
-watch([selectedIndicator, searchQuery], rebuildMarkers)
+watch([selectedIndicator, searchQuery], () => { rebuildMarkers(); rebuildRings() })
+watch(showRings, rebuildRings)
 
 onMounted(async () => {
   L = (await import('leaflet')).default
@@ -295,6 +383,10 @@ onMounted(async () => {
     attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>国土地理院</a>",
     maxZoom: 18,
   }).addTo(map)
+
+  // リングはマーカーより下に置く（先に追加）
+  ringGroup = L.layerGroup()
+  map.addLayer(ringGroup)
 
   clusterGroup = L.markerClusterGroup({
     maxClusterRadius: 45,
@@ -315,6 +407,7 @@ onMounted(async () => {
       if (data.meta.indicators) indicators.value = data.meta.indicators
     }
     rebuildMarkers()
+    rebuildRings()
   } catch (error) {
     console.error('データの読み込みに失敗しました:', error)
   }
@@ -329,6 +422,9 @@ onMounted(async () => {
 .custom-marker { background: transparent; border: none; }
 .slide-enter-active, .slide-leave-active { transition: all .2s ease; }
 .slide-enter-from, .slide-leave-to { opacity: 0; transform: translateX(12px); }
+.slide-left-enter-active, .slide-left-leave-active { transition: all .2s ease; }
+.slide-left-enter-from, .slide-left-leave-to { opacity: 0; transform: translateX(-12px); }
+.ring-label { background: transparent; border: none; }
 /* マーカークラスタの色を配色トーンに合わせる */
 .marker-cluster-small { background: rgba(0,114,178,.25); }
 .marker-cluster-small div { background: rgba(0,114,178,.7); color: #fff; }
