@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-full h-screen bg-gray-50 overflow-hidden">
+  <div class="apple-ui relative w-full h-screen bg-[#f5f5f7] overflow-hidden text-gray-900">
     <ClientOnly>
       <div id="map" class="absolute inset-0 z-0"></div>
     </ClientOnly>
@@ -8,43 +8,43 @@
     <button
       v-show="!panelOpen"
       @click="panelOpen = true"
-      class="absolute top-4 left-4 z-[1001] flex items-center gap-2 px-3 py-2 bg-white/95 backdrop-blur-md rounded-lg shadow-lg border border-gray-100 text-sm font-medium text-gray-700 hover:bg-white"
+      class="absolute top-5 left-5 z-[1001] flex items-center gap-2 pl-3 pr-4 py-2 bg-white/70 backdrop-blur-2xl backdrop-saturate-150 rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.12)] ring-1 ring-black/5 text-sm font-medium text-gray-800 hover:bg-white/90 transition-colors"
     >
-      <span class="text-base leading-none">☰</span> メニュー
+      <span class="text-lg leading-none">☰</span> メニュー
     </button>
 
     <!-- 左上: コントロールパネル -->
     <transition name="slide-left">
-      <div v-show="panelOpen" class="absolute top-4 left-4 z-[1000] w-[21rem] max-w-[calc(100vw-2rem)] max-h-[calc(100vh-7rem)] overflow-y-auto bg-white/95 backdrop-blur-md rounded-xl shadow-lg border border-gray-100">
+      <div v-show="panelOpen" class="absolute top-5 left-5 z-[1000] w-[21rem] max-w-[calc(100vw-2.5rem)] max-h-[calc(100vh-7.5rem)] overflow-y-auto bg-white/70 backdrop-blur-2xl backdrop-saturate-150 rounded-[1.375rem] shadow-[0_8px_40px_rgba(0,0,0,0.16)] ring-1 ring-black/5">
       <div class="p-5">
-        <div class="flex items-start justify-between gap-2 -mt-1 -mr-1 mb-1">
-          <span></span>
+        <div class="flex items-center justify-between gap-2 mb-3">
+          <span class="text-[11px] font-medium text-gray-400 tracking-wide">DASHBOARD</span>
           <button
             @click="panelOpen = false"
-            class="text-gray-400 hover:text-gray-700 text-sm px-2 py-1 rounded hover:bg-gray-100"
+            class="flex items-center gap-1 text-[13px] text-gray-500 hover:text-gray-800 px-2.5 py-1 rounded-full hover:bg-black/5 transition-colors"
             aria-label="パネルを隠す"
             title="地図を広く見る"
-          >« 隠す</button>
+          >‹ 隠す</button>
         </div>
-        <h1 class="text-xl font-bold text-gray-800 tracking-tight">
+        <h1 class="text-[1.6rem] font-semibold text-gray-900 tracking-[-0.02em] leading-tight">
           {{ meta?.title || '東京都 病院IT投資マップ' }}
         </h1>
-        <p class="text-sm text-gray-500 mt-1">{{ meta?.filter || '100床以上の主要病院' }}</p>
+        <p class="text-[13px] text-gray-500 mt-1">{{ meta?.filter || '100床以上の主要病院' }}</p>
 
         <!-- 検索 -->
-        <div class="mt-4">
-          <label class="text-xs font-semibold text-gray-400 uppercase tracking-wider">病院名・住所で検索</label>
-          <div class="relative mt-1">
+        <div class="mt-5">
+          <label class="text-[13px] font-medium text-gray-500">病院名・住所で検索</label>
+          <div class="relative mt-1.5">
             <input
               v-model="searchQuery"
               type="text"
-              placeholder="例: リハビリ、青梅市、〇〇病院"
-              class="w-full px-3 py-2 pr-8 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-400 focus:border-transparent"
+              placeholder="リハビリ、青梅市、〇〇病院"
+              class="w-full px-3.5 py-2.5 pr-9 text-[14px] bg-black/[0.04] rounded-xl border-0 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0071e3]/60 transition-shadow"
             />
             <button
               v-if="searchQuery"
               @click="searchQuery = ''"
-              class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 text-lg leading-none"
+              class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center justify-center w-5 h-5 rounded-full bg-gray-400/80 text-white text-xs leading-none hover:bg-gray-500"
               aria-label="検索クリア"
             >×</button>
           </div>
@@ -52,84 +52,89 @@
 
         <!-- 指標切替 -->
         <div class="mt-4">
-          <label class="text-xs font-semibold text-gray-400 uppercase tracking-wider">色分けする指標</label>
-          <select
-            v-model="selectedIndicator"
-            class="w-full mt-1 px-3 py-2 text-sm border border-gray-200 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-sky-400"
-          >
-            <option v-for="(label, key) in indicators" :key="key" :value="key">{{ label }}</option>
-          </select>
+          <label class="text-[13px] font-medium text-gray-500">色分けする指標</label>
+          <div class="relative mt-1.5">
+            <select
+              v-model="selectedIndicator"
+              class="w-full appearance-none px-3.5 py-2.5 pr-9 text-[14px] bg-black/[0.04] rounded-xl border-0 focus:outline-none focus:ring-2 focus:ring-[#0071e3]/60 cursor-pointer"
+            >
+              <option v-for="(label, key) in indicators" :key="key" :value="key">{{ label }}</option>
+            </select>
+            <span class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 text-xs">⌄</span>
+          </div>
         </div>
 
         <!-- 集積範囲リング表示トグル -->
-        <div class="mt-3">
-          <label class="flex items-center justify-between cursor-pointer select-none">
-            <span class="text-sm text-gray-700">該当施設の集積範囲をリング表示</span>
-            <span class="relative inline-block w-10 h-5">
+        <div class="mt-4 flex items-start justify-between gap-3">
+          <div>
+            <span class="text-[14px] text-gray-800">集積範囲をリング表示</span>
+            <p v-if="showRings" class="text-[12px] text-gray-500 mt-0.5 leading-snug">
+              「{{ indicators[selectedIndicator] }}」が{{ ringMinCount }}件以上集まる範囲を{{ ringCount }}箇所表示中
+            </p>
+          </div>
+          <label class="shrink-0 cursor-pointer select-none mt-0.5">
+            <span class="relative inline-block w-[51px] h-[31px]">
               <input type="checkbox" v-model="showRings" class="sr-only peer" />
-              <span class="absolute inset-0 rounded-full bg-gray-300 peer-checked:bg-orange-500 transition-colors"></span>
-              <span class="absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white transition-transform peer-checked:translate-x-5"></span>
+              <span class="absolute inset-0 rounded-full bg-black/15 peer-checked:bg-[#34C759] transition-colors duration-200"></span>
+              <span class="absolute top-[2px] left-[2px] w-[27px] h-[27px] rounded-full bg-white shadow-[0_2px_4px_rgba(0,0,0,0.25)] transition-transform duration-200 peer-checked:translate-x-[20px]"></span>
             </span>
           </label>
-          <p v-if="showRings" class="text-[11px] text-gray-500 mt-1">
-            「{{ indicators[selectedIndicator] }}」が該当の施設が{{ ringMinCount }}件以上集まる範囲を{{ ringCount }}箇所表示中
-          </p>
         </div>
 
         <!-- 統計サマリ -->
-        <div class="mt-4 grid grid-cols-3 gap-2 text-center">
-          <div class="rounded-lg bg-orange-50 py-2">
-            <div class="text-lg font-bold" style="color:#C65300">{{ stats.yes }}</div>
-            <div class="text-[10px] text-gray-500">該当</div>
+        <div class="mt-5 grid grid-cols-3 gap-2 text-center">
+          <div class="rounded-2xl bg-black/[0.04] py-2.5">
+            <div class="text-[1.35rem] font-semibold tracking-tight" style="color:#C65300">{{ stats.yes }}</div>
+            <div class="text-[11px] text-gray-500 mt-0.5">該当</div>
           </div>
-          <div class="rounded-lg bg-sky-50 py-2">
-            <div class="text-lg font-bold" style="color:#0060A0">{{ stats.no }}</div>
-            <div class="text-[10px] text-gray-500">非該当</div>
+          <div class="rounded-2xl bg-black/[0.04] py-2.5">
+            <div class="text-[1.35rem] font-semibold tracking-tight" style="color:#0060A0">{{ stats.no }}</div>
+            <div class="text-[11px] text-gray-500 mt-0.5">非該当</div>
           </div>
-          <div class="rounded-lg bg-gray-100 py-2">
-            <div class="text-lg font-bold text-gray-500">{{ filteredCount }}</div>
-            <div class="text-[10px] text-gray-500">表示中</div>
+          <div class="rounded-2xl bg-black/[0.04] py-2.5">
+            <div class="text-[1.35rem] font-semibold tracking-tight text-gray-600">{{ filteredCount }}</div>
+            <div class="text-[11px] text-gray-500 mt-0.5">表示中</div>
           </div>
         </div>
 
         <!-- 凡例（3状態を明示・色＋形状で冗長化） -->
-        <div class="mt-4 pt-4 border-t border-gray-200">
-          <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">凡例</h2>
-          <div class="space-y-1.5">
-            <div class="flex items-center gap-2">
+        <div class="mt-5 pt-4 border-t border-black/[0.07]">
+          <h2 class="text-[13px] font-medium text-gray-500 mb-2.5">凡例</h2>
+          <div class="space-y-2">
+            <div class="flex items-center gap-2.5">
               <span v-html="legendSwatch('yes')"></span>
-              <span class="text-sm text-gray-700">該当（{{ indicators[selectedIndicator] }}の届出あり）</span>
+              <span class="text-[13px] text-gray-700">該当（{{ indicators[selectedIndicator] }}の届出あり）</span>
             </div>
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2.5">
               <span v-html="legendSwatch('no')"></span>
-              <span class="text-sm text-gray-700">非該当（届出なし）</span>
+              <span class="text-[13px] text-gray-700">非該当（届出なし）</span>
             </div>
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2.5">
               <span v-html="legendSwatch('unknown')"></span>
-              <span class="text-sm text-gray-700">未確認（データなし）</span>
+              <span class="text-[13px] text-gray-700">未確認（データなし）</span>
             </div>
           </div>
         </div>
 
         <!-- 位置要確認リスト -->
-        <div class="mt-4 pt-4 border-t border-gray-200">
+        <div class="mt-4 pt-4 border-t border-black/[0.07]">
           <button
             @click="showUnlocated = !showUnlocated"
-            class="w-full flex items-center justify-between text-xs font-semibold uppercase tracking-wider"
-            :class="unlocated.length ? 'text-amber-600' : 'text-gray-400'"
+            class="w-full flex items-center justify-between text-[13px] font-medium"
+            :class="unlocated.length ? 'text-amber-600' : 'text-gray-500'"
           >
             <span>位置未確認の施設</span>
-            <span class="flex items-center gap-1">
-              <span class="px-1.5 py-0.5 rounded-full text-white text-[10px]" :class="unlocated.length ? 'bg-amber-500' : 'bg-gray-300'">{{ unlocated.length }}</span>
-              <span class="text-gray-400">{{ showUnlocated ? '▲' : '▼' }}</span>
+            <span class="flex items-center gap-1.5">
+              <span class="px-2 py-0.5 rounded-full text-white text-[11px] font-semibold" :class="unlocated.length ? 'bg-amber-500' : 'bg-gray-300'">{{ unlocated.length }}</span>
+              <span class="text-gray-400 text-[10px]">{{ showUnlocated ? '▲' : '▼' }}</span>
             </span>
           </button>
           <div v-if="showUnlocated" class="mt-2">
-            <p v-if="!unlocated.length" class="text-xs text-gray-500">
+            <p v-if="!unlocated.length" class="text-[12px] text-gray-500 leading-relaxed">
               全施設の座標が確認済みです（地図上の点はすべて位置特定済み）。
             </p>
             <ul v-else class="space-y-1 max-h-40 overflow-y-auto">
-              <li v-for="h in unlocated" :key="h.id" class="text-xs text-gray-600">
+              <li v-for="h in unlocated" :key="h.id" class="text-[12px] text-gray-600">
                 <span class="font-medium">{{ h.name }}</span>
                 <span class="text-gray-400"> — {{ h.geo_note || '座標未取得' }}</span>
               </li>
@@ -144,33 +149,33 @@
     <transition name="slide">
       <div
         v-if="selected"
-        class="absolute top-4 right-4 z-[1000] w-[22rem] max-w-[calc(100vw-2rem)] max-h-[calc(100vh-7rem)] overflow-y-auto bg-white/97 backdrop-blur-md rounded-xl shadow-xl border border-gray-100"
+        class="absolute top-5 right-5 z-[1000] w-[22rem] max-w-[calc(100vw-2.5rem)] max-h-[calc(100vh-7.5rem)] overflow-y-auto bg-white/75 backdrop-blur-2xl backdrop-saturate-150 rounded-[1.375rem] shadow-[0_8px_40px_rgba(0,0,0,0.18)] ring-1 ring-black/5"
       >
         <div class="p-5">
           <div class="flex items-start justify-between gap-2">
-            <h3 class="text-base font-bold text-gray-800 leading-snug">{{ selected.name }}</h3>
-            <button @click="selected = null" class="text-gray-400 hover:text-gray-600 text-2xl leading-none -mt-1" aria-label="閉じる">×</button>
+            <h3 class="text-[1.05rem] font-semibold text-gray-900 leading-snug tracking-[-0.01em]">{{ selected.name }}</h3>
+            <button @click="selected = null" class="shrink-0 flex items-center justify-center w-7 h-7 rounded-full bg-black/5 text-gray-500 text-lg leading-none hover:bg-black/10 transition-colors" aria-label="閉じる">×</button>
           </div>
-          <p class="text-xs text-gray-500 mt-2">
+          <p class="text-[12px] text-gray-500 mt-2 leading-relaxed">
             <span v-if="selected.postal">〒{{ selected.postal }}　</span>{{ selected.address }}
           </p>
-          <div class="mt-3 flex flex-wrap gap-2 text-xs">
-            <span class="px-2 py-1 rounded bg-gray-100 text-gray-700">🛏 {{ selected.beds }}床</span>
-            <span class="px-2 py-1 rounded bg-gray-100 text-gray-500">ID: {{ selected.id }}</span>
-            <span v-if="selected.geo_status === 'ok'" class="px-2 py-1 rounded bg-emerald-50 text-emerald-700">📍 位置確認済</span>
-            <span v-else class="px-2 py-1 rounded bg-amber-50 text-amber-700">📍 位置未確認</span>
+          <div class="mt-3 flex flex-wrap gap-1.5 text-[12px]">
+            <span class="px-2.5 py-1 rounded-full bg-black/5 text-gray-700">🛏 {{ selected.beds }}床</span>
+            <span class="px-2.5 py-1 rounded-full bg-black/5 text-gray-500">ID: {{ selected.id }}</span>
+            <span v-if="selected.geo_status === 'ok'" class="px-2.5 py-1 rounded-full bg-emerald-500/10 text-emerald-700">📍 位置確認済</span>
+            <span v-else class="px-2.5 py-1 rounded-full bg-amber-500/10 text-amber-700">📍 位置未確認</span>
           </div>
 
-          <div class="mt-4">
-            <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">IT・施設基準 届出状況</h4>
-            <ul class="space-y-1.5">
+          <div class="mt-5">
+            <h4 class="text-[13px] font-medium text-gray-500 mb-2.5">IT・施設基準 届出状況</h4>
+            <ul class="space-y-2.5">
               <li v-for="(label, key) in indicators" :key="key" class="flex items-center justify-between">
-                <span class="text-sm" :class="key === selectedIndicator ? 'text-gray-900 font-semibold' : 'text-gray-700'">{{ label }}</span>
+                <span class="text-[14px]" :class="key === selectedIndicator ? 'text-gray-900 font-semibold' : 'text-gray-700'">{{ label }}</span>
                 <span
-                  class="text-[11px] px-2 py-0.5 rounded-full font-medium"
+                  class="text-[12px] px-2.5 py-0.5 rounded-full font-medium"
                   :class="selected.investments?.[key]
-                    ? 'bg-orange-100 text-orange-700'
-                    : 'bg-sky-100 text-sky-700'"
+                    ? 'bg-orange-500/15 text-orange-700'
+                    : 'bg-sky-500/12 text-sky-700'"
                 >{{ selected.investments?.[key] ? '届出あり' : '届出なし' }}</span>
               </li>
             </ul>
@@ -180,20 +185,20 @@
     </transition>
 
     <!-- 出典フッター（常時表示） -->
-    <div class="absolute bottom-0 left-0 right-0 z-[1000] bg-gray-900/85 backdrop-blur-sm text-gray-200 text-[11px] px-4 py-2">
+    <div class="absolute bottom-0 left-0 right-0 z-[1000] bg-white/70 backdrop-blur-2xl backdrop-saturate-150 border-t border-black/[0.08] text-gray-500 text-[11px] px-5 py-2.5">
       <div class="flex flex-wrap items-center gap-x-3 gap-y-0.5">
-        <span class="font-semibold text-white">出典:</span>
-        <a v-if="meta?.sourceUrl" :href="meta.sourceUrl" target="_blank" rel="noopener" class="underline hover:text-sky-300">
+        <span class="font-semibold text-gray-700">出典</span>
+        <a v-if="meta?.sourceUrl" :href="meta.sourceUrl" target="_blank" rel="noopener" class="text-[#0071e3] hover:underline">
           {{ meta?.source }}
         </a>
         <span v-else>{{ meta?.source }}</span>
-        <span class="text-gray-400">|</span>
+        <span class="text-gray-300">·</span>
         <span>対象時点: {{ meta?.period }}</span>
-        <span class="text-gray-400">|</span>
+        <span class="text-gray-300">·</span>
         <span>対象: {{ meta?.recordCount }}施設</span>
-        <span class="text-gray-400">|</span>
+        <span class="text-gray-300">·</span>
         <span>取得日: {{ meta?.fetchedAt }}</span>
-        <span class="text-gray-400">|</span>
+        <span class="text-gray-300">·</span>
         <span>座標: {{ meta?.geocoder }}</span>
       </div>
     </div>
@@ -415,21 +420,58 @@ onMounted(async () => {
 </script>
 
 <style>
+/* Apple風システムフォント（日本語は Hiragino → Noto/メイリオ にフォールバック） */
+.apple-ui {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+    "Helvetica Neue", "Hiragino Kaku Gothic ProN", "Hiragino Sans",
+    "Noto Sans JP", Meiryo, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
 .leaflet-container {
-  background: #f9fafb;
+  background: #f5f5f7;
   font-family: inherit;
 }
 .custom-marker { background: transparent; border: none; }
-.slide-enter-active, .slide-leave-active { transition: all .2s ease; }
-.slide-enter-from, .slide-leave-to { opacity: 0; transform: translateX(12px); }
-.slide-left-enter-active, .slide-left-leave-active { transition: all .2s ease; }
-.slide-left-enter-from, .slide-left-leave-to { opacity: 0; transform: translateX(-12px); }
+.slide-enter-active, .slide-leave-active { transition: all .25s cubic-bezier(0.32, 0.72, 0, 1); }
+.slide-enter-from, .slide-leave-to { opacity: 0; transform: translateX(16px) scale(0.98); }
+.slide-left-enter-active, .slide-left-leave-active { transition: all .25s cubic-bezier(0.32, 0.72, 0, 1); }
+.slide-left-enter-from, .slide-left-leave-to { opacity: 0; transform: translateX(-16px) scale(0.98); }
 .ring-label { background: transparent; border: none; }
-/* マーカークラスタの色を配色トーンに合わせる */
-.marker-cluster-small { background: rgba(0,114,178,.25); }
-.marker-cluster-small div { background: rgba(0,114,178,.7); color: #fff; }
-.marker-cluster-medium { background: rgba(213,94,0,.25); }
-.marker-cluster-medium div { background: rgba(213,94,0,.7); color: #fff; }
-.marker-cluster-large { background: rgba(213,94,0,.3); }
-.marker-cluster-large div { background: rgba(213,94,0,.85); color: #fff; }
+
+/* Leaflet コントロールを Apple 風（すりガラス・丸み）に */
+.leaflet-control-zoom {
+  border: none !important;
+  border-radius: 14px !important;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important;
+  backdrop-filter: blur(20px) saturate(1.5);
+}
+.leaflet-control-zoom a {
+  background: rgba(255,255,255,0.7) !important;
+  color: #1d1d1f !important;
+  border: none !important;
+  width: 34px; height: 34px; line-height: 34px;
+  font-weight: 500;
+}
+.leaflet-control-zoom a:hover { background: rgba(255,255,255,0.92) !important; }
+.leaflet-control-attribution {
+  background: rgba(255,255,255,0.6) !important;
+  backdrop-filter: blur(10px);
+  border-radius: 8px 0 0 0;
+  font-size: 10px;
+}
+
+/* マーカークラスタを配色トーン＋すりガラス調に */
+.marker-cluster {
+  backdrop-filter: blur(2px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+.marker-cluster div { font-weight: 600; }
+.marker-cluster-small { background: rgba(0,114,178,.22); }
+.marker-cluster-small div { background: rgba(0,114,178,.78); color: #fff; }
+.marker-cluster-medium { background: rgba(213,94,0,.22); }
+.marker-cluster-medium div { background: rgba(213,94,0,.78); color: #fff; }
+.marker-cluster-large { background: rgba(213,94,0,.28); }
+.marker-cluster-large div { background: rgba(213,94,0,.88); color: #fff; }
 </style>
