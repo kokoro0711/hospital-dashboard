@@ -10,7 +10,9 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dataPath = join(root, 'public', 'tokyo_hospitals_100beds.json');
 const reportPath = join(root, 'data', 'audit_report.md');
 
-const hospitals = JSON.parse(readFileSync(dataPath, 'utf-8'));
+const parsed = JSON.parse(readFileSync(dataPath, 'utf-8'));
+// 旧スキーマ(配列) / 新スキーマ({meta, hospitals}) の両対応
+const hospitals = Array.isArray(parsed) ? parsed : parsed.hospitals;
 
 // --- 監査基準 ---
 // 固定座標（仙台市付近・ジオコーディング失敗時のフォールバック疑い）
@@ -21,9 +23,10 @@ const EPS = 1e-6;
 const TOKYO = { latMin: 35.5, latMax: 35.9, lngMin: 138.9, lngMax: 139.95 };
 const ISLANDS = { latMin: 24.0, latMax: 35.0, lngMin: 138.9, lngMax: 142.3 };
 
+// robot_surgery は出典非収載のため Phase 2 で除外済み（scripts/add_meta.mjs）
 const INDICATORS = [
   'online_medical', 'medical_dx', 'electronic_record',
-  'robot_surgery', 'outpatient_chemo', 'remote_care', 'data_submission',
+  'outpatient_chemo', 'remote_care', 'data_submission',
 ];
 
 const isFixed = (h) =>
@@ -122,7 +125,7 @@ for (const k of INDICATORS) {
   lines.push(`| ${k} | ${trueCounts[k]} | ${pct(trueCounts[k])} |`);
 }
 lines.push(``);
-lines.push(`- **robot_surgery 全件 false: ${trueCounts.robot_surgery === 0 ? '真（全320件 false。抽出欠陥または元データ非収載の疑い — UI掲載前に出所検証が必要）' : `偽（true が ${trueCounts.robot_surgery} 件存在）`}**`);
+lines.push(`- robot_surgery: 出典「届出受理状況」に手術支援ロボットの施設基準が存在しないため Phase 2 で指標から除外済み（scripts/check_robot.mjs で検証）。`);
 lines.push(``);
 lines.push(`## 東京妥当範囲外の施設（固定座標を除く）`);
 lines.push(``);
@@ -161,5 +164,5 @@ console.log(`address=="nan": ${nanAddress.length}`);
 console.log(`固定座標: ${fixedCoord.length}`);
 console.log(`東京範囲外(固定座標除く): ${outNonFixed.length}`);
 console.log(`重複座標(固定除く): ${realDupGroups.length} 組`);
-console.log(`robot_surgery true: ${trueCounts.robot_surgery}`);
+console.log(`指標(${INDICATORS.length}項目)true件数: ${INDICATORS.map((k) => `${k}=${trueCounts[k]}`).join(', ')}`);
 console.log(`レポート出力: ${reportPath}`);

@@ -1,6 +1,6 @@
 # データ監査レポート: tokyo_hospitals_100beds.json
 
-- 実行日時: 2026-06-12T13:37:48.622Z
+- 実行日時: 2026-06-15T12:45:26.260Z
 - 対象ファイル: `public/tokyo_hospitals_100beds.json`
 - 監査スクリプト: `scripts/audit.mjs`
 
@@ -32,12 +32,11 @@
 | online_medical | 61 | 19.1% |
 | medical_dx | 205 | 64.1% |
 | electronic_record | 15 | 4.7% |
-| robot_surgery | 0 | 0.0% |
 | outpatient_chemo | 118 | 36.9% |
 | remote_care | 120 | 37.5% |
 | data_submission | 282 | 88.1% |
 
-- **robot_surgery 全件 false: 真（全320件 false。抽出欠陥または元データ非収載の疑い — UI掲載前に出所検証が必要）**
+- robot_surgery: 出典「届出受理状況」に手術支援ロボットの施設基準が存在しないため Phase 2 で指標から除外済み（scripts/check_robot.mjs で検証）。
 
 ## 東京妥当範囲外の施設（固定座標を除く）
 
