@@ -531,7 +531,9 @@ onMounted(async () => {
   ringGroup = L.layerGroup(); map.addLayer(ringGroup)
   clusterGroup = L.markerClusterGroup({ maxClusterRadius: 45, spiderfyOnMaxZoom: true, showCoverageOnHover: false }); map.addLayer(clusterGroup)
   try {
-    const res = await fetch('/tokyo_hospitals_100beds.json')
+    // GitHub Pages のサブパス配信に対応（baseURL は末尾 '/' 付き）
+    const base = useRuntimeConfig().app.baseURL || '/'
+    const res = await fetch(`${base}tokyo_hospitals_100beds.json`.replace(/\/{2,}/g, '/'))
     if (!res.ok) throw new Error('fetch failed')
     const data = await res.json()
     hospitals.value = Array.isArray(data) ? data : data.hospitals
