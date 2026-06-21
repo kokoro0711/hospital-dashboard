@@ -531,9 +531,10 @@ onMounted(async () => {
   ringGroup = L.layerGroup(); map.addLayer(ringGroup)
   clusterGroup = L.markerClusterGroup({ maxClusterRadius: 45, spiderfyOnMaxZoom: true, showCoverageOnHover: false }); map.addLayer(clusterGroup)
   try {
-    // GitHub Pages のサブパス配信に対応（baseURL は末尾 '/' 付き）
-    const base = useRuntimeConfig().app.baseURL || '/'
-    const res = await fetch(`${base}tokyo_hospitals_100beds.json`.replace(/\/{2,}/g, '/'))
+    // GitHub Pages のサブパス配信に対応。アセットと同じ Vite のベース（dev: '/', 本番: './'）を使い、
+    // 現在のドキュメントURL基準で相対解決する（runtimeConfig.baseURLは実行時に正規化され誤るため使わない）。
+    const base = import.meta.env.BASE_URL || '/'
+    const res = await fetch(new URL(`${base}tokyo_hospitals_100beds.json`, window.location.href))
     if (!res.ok) throw new Error('fetch failed')
     const data = await res.json()
     hospitals.value = Array.isArray(data) ? data : data.hospitals
